@@ -101,12 +101,6 @@ ssh-copy-id username@server-ip
 
 This appends your public key to `~/.ssh/authorized_keys` on the server automatically.
 
-**If `ssh-copy-id` is unavailable**, do it manually:
-
-```bash
-cat ~/.ssh/id_ed25519.pub | ssh username@server-ip "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
-```
-
 ---
 
 ## Step 7: Verify Key-Based Authentication
