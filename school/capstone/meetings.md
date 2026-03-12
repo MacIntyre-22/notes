@@ -4,7 +4,8 @@
   - [February 5th](#february-5th)
   - [February 12th](#february-12th)
   - [February 19th](#february-19th)
-  - [February 19th](#february-19th-1)
+  - [March 5th](#march-5th)
+  - [**Notes:**](#notes)
 
 ## February 5th
 **Notes:**
@@ -31,10 +32,9 @@
 
 **Time: 50m**
 
-## February 19th
+## March 5th
 **Notes:**
-- Week plan for work
-- Requirements gathering doc
+- 
 
 **Time: 50m**
 
