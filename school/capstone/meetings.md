@@ -1,9 +1,14 @@
 # Meeting Minutes
 
+- [Meeting Minutes](#meeting-minutes)
+  - [February 5th](#february-5th)
+      - [Notes:](#notes)
+
+
 (Template)
-## Date
-#### Notes:
- *Time: * 
+Date
+Notes:
+**Time:** 
 
  (Template)
 ## February 5th
