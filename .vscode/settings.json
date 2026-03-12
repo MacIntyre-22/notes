@@ -1,4 +1,6 @@
 {
     "gitdoc.enabled": true,
-    "markdown.validate.enabled": true
+    "markdown.validate.enabled": true,
+    "documentViewer.readOnly": false,
+    "documentViewer.filtering": true
 }
