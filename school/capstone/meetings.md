@@ -5,6 +5,8 @@
   - [February 12th](#february-12th)
   - [February 19th](#february-19th)
   - [March 5th](#march-5th)
+  - [March 12th](#march-12th)
+  - [**Notes:**](#notes)
 
 ## February 5th
 **Notes:**
@@ -39,5 +41,9 @@
 
 **Time: 50m**
 
+## March 12th
+**Notes:**
+- 
 
+**Time: **
 
