@@ -1,5 +1,7 @@
 # SSH & SFTP Setup
 
+[[ssh_setup]]
+
 ## Verified SSH is running on server
 ```bash
 sudo systemctl status ssh
