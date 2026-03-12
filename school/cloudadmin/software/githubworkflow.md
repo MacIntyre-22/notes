@@ -1,52 +1,63 @@
 
 
-GitHub Workflow
-## Quickstart Guide
-## Setup Git Account
-Starting a New Project
-Continue an Existing Project
-Clone a Project
-## Continue Work
-Extending a Project
-## Common Tasks
-## Commit Comment Style
-Proper Format and Form:
-## Issue Numbers
-## Frequency
-How to Properly Merge
-How to Build a README
-## Title
-## Description
-## Getting Started Guide
-## Compatibility
-## Authors
-## License
-## Acknowledgement
-## Git Commands
-## Terminal Commands
-## FAQ
-What to Do When Development Was Started on the Wrong Branch?
-How to Unstage Files?
-How to Fix Commit Messages?
-How to Avoid Tracking Files?
-Who Broke Content in a Particular File?
-## Glossary
-main Branch
-## Development Branch
-## Git
+# GitHub Workflow
 
-## Purpose
-## Structure
-GitHub
-## Issues
-## Milestones
-## Working Directory
-## Staging
-## Repository
-## Commits
-## Detailed Git Commands
-Git init
-Git log
+- [GitHub Workflow](#github-workflow)
+  - [Quickstart Guide](#quickstart-guide)
+    - [Step 1) Account Setup:](#step-1-account-setup)
+  - [Setup Guide Here](#setup-guide-here)
+  - [Setup Git Account](#setup-git-account)
+  - [Check All Available Branches](#check-all-available-branches)
+  - [Continue Working](#continue-working)
+  - [Continue Work](#continue-work)
+  - [Common Tasks](#common-tasks)
+  - [Commit Comment Style](#commit-comment-style)
+  - [Example](#example)
+  - [Issue Numbers](#issue-numbers)
+  - [Example](#example-1)
+  - [Frequency](#frequency)
+  - [\<\<\<\<\<\<head](#head)
+  - [========](#)
+  - [\>\>\>\>\>\>branchname](#branchname)
+  - [Title](#title)
+  - [Description](#description)
+  - [Getting Started Guide](#getting-started-guide)
+  - [Compatibility](#compatibility)
+  - [Target Browsers](#target-browsers)
+  - [Screen Size Compatibility Chart](#screen-size-compatibility-chart)
+  - [Authors](#authors)
+  - [Jane Doejdoejdoe@example.com](#jane-doejdoejdoeexamplecom)
+  - [License](#license)
+  - [Acknowledgement](#acknowledgement)
+  - [Git Commands](#git-commands)
+  - [More](#more)
+  - [Detail](#detail)
+  - [More](#more-1)
+  - [Detail](#detail-1)
+  - [Terminal Commands](#terminal-commands)
+  - [FAQ](#faq)
+  - [Branch?](#branch)
+  - [Command](#command)
+  - [Name](#name)
+  - [Purpose](#purpose)
+  - [--amend](#--amend)
+  - [Glossary](#glossary)
+  - [Development Branch](#development-branch)
+  - [Git](#git)
+  - [Purpose](#purpose-1)
+  - [Structure](#structure)
+  - [Working Directory](#working-directory)
+  - [Staging](#staging)
+  - [Repository](#repository)
+  - [Issues](#issues)
+  - [Milestones](#milestones)
+  - [Working Directory](#working-directory-1)
+  - [Staging](#staging-1)
+  - [Repository](#repository-1)
+  - [Commits](#commits)
+  - [Detailed Git Commands](#detailed-git-commands)
+
+
 This document was developed to help teach a GitHub workflow that can help keep the different stages
 of software development separate.
 All projects should have a production branch (main) and a development branch (Development)
@@ -60,7 +71,7 @@ can be made
 All pull requests into the development branch will then be fast-forward merges and will allow in turn for
 fast-forward merges into production
 ## Quickstart Guide
-## Step 1) Account Setup:
+### Step 1) Account Setup:
 Please note that this step only needs to be completed on the school computers. This is because the
 machines will re-image every night. If Git has already been correctly configured on the workstation
 skip this step.
