@@ -18,7 +18,7 @@
 - is a reproducible declarative file that can be used to perform specific actions to any devices managed with ansible
 
 ## How does it work?
-
+[[ansible_project]]
 - installed on control node
     - a control node can be any computer
     
