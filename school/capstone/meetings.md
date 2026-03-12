@@ -76,5 +76,5 @@
 - Review prototypes
 - Went over game aspects like effect popups, lighting, bar system
 
-**Time: **
+**Time: 1h 30m**
 
