@@ -21,21 +21,6 @@ EOF
 sudo apt update
 
 ```
-
-[​](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository "https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository")
-
 The above will add dockers GPG key and then add the docker repository so that you may install docker from it.
 
 Next:
-
-  
-
-  
-
-  
-
-  
-
-  
-
-Ben MacIntyre
