@@ -6,7 +6,6 @@
   - [February 19th](#february-19th)
   - [March 5th](#march-5th)
   - [March 12th](#march-12th)
-  - [**Notes:**](#notes)
 
 ## February 5th
 **Notes:**
@@ -43,7 +42,7 @@
 
 ## March 12th
 **Notes:**
-- 
+- Review completed work from the game
 
 **Time: **
 

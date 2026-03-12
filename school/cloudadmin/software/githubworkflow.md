@@ -106,8 +106,10 @@ The following is a guide that should be used when trying to create a new Git/Git
 Note: The following commands assume they are being run in the root of the project
 1) Begin Starting a New Project by Creating the Repository
 
-`username@workstationname:~$ git init`
+```bash
+username@workstationname:~$ git init
 
+```
 2) Build a .gitignore file
 ```bash
 
@@ -122,21 +124,31 @@ Prefabicated gitignore
 Generate one
 
 3) Perform an Initial Commit for the main Branch
+```bash
 username@workstationname:~$ git add .
 username@workstationname:~$ git commit -m "Initial Commit"
+```
 
 1) Create a Development Branch
+```bash
 username@workstationname:~$ git branch development
+```
 
 1) Add the GitHub Remote Server
+```bash
 username@workstationname:~$ git remote add origin repolink
 
+```
 1) Upload the main Branch
+```bash
 username@workstationname:~$ git push -u origin main
 
+```
 1) Upload the Development Branch
+```bash
 username@workstationname:~$ git checkout development
 username@workstationname:~$ git push -u origin development
+```
 
 ## Continue an Existing Project
 Clone a Project
