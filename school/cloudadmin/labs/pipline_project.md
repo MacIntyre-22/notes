@@ -1,6 +1,6 @@
 # Pipline Project
 
-- transferring agents jobs to a pipline project [[jenkins]]
+- transferring agents jobs to a pipline project
 - need pipeline plugins
 - need GitHub plugins, if it invloves code management with github
 
