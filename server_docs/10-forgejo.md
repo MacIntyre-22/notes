@@ -26,7 +26,7 @@
 
 ## Portfolio repo created
 - In Forgejo: New Repository → `portfolio` → Private → no initialize
-- On server initialized git in portfolio folder:
+- On server initialized git in portfolio folder [[githubworkflow.pdf]]:
 ```bash
 cd /home/bmacintyre/www/portfolio
 git init
