@@ -13,7 +13,7 @@
 
 ## Single Branch Pipeline
 
-```yml
+```bash
 pipeline {
     agent any
     stages {
@@ -49,7 +49,7 @@ pipeline {
 
 - add Jenkinsfile to the repo
 
-```yml
+```bash
 pipeline {
     agent any
     environment {
