@@ -4,8 +4,7 @@
 
 - [GitHub Workflow](#github-workflow)
   - [Quickstart Guide](#quickstart-guide)
-    - [Step 1) Account Setup:](#step-1-account-setup)
-  - [Setup Guide Here](#setup-guide-here)
+      - [Step 1) Account Setup:](#step-1-account-setup)
   - [Setup Git Account](#setup-git-account)
   - [Check All Available Branches](#check-all-available-branches)
   - [Continue Working](#continue-working)
@@ -71,12 +70,13 @@ can be made
 All pull requests into the development branch will then be fast-forward merges and will allow in turn for
 fast-forward merges into production
 ## Quickstart Guide
-### Step 1) Account Setup:
+#### Step 1) Account Setup:
 Please note that this step only needs to be completed on the school computers. This is because the
 machines will re-image every night. If Git has already been correctly configured on the workstation
 skip this step.
 
-## Setup Guide Here
+[Setup Guide Here](Setup Git Account)
+
 Step 2) Select Type of Project:
 After the account has been configured, select one of the two following options:
 Work on existing project
