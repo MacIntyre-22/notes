@@ -43,6 +43,8 @@
 ## March 12th
 **Notes:**
 - Review completed work from the game
+- Review prototypes
+- Went over game aspects like effect popups, lighting, bar system
 
 **Time: **
 
