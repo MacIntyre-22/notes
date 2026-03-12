@@ -16,7 +16,7 @@ The above will add dockers GPG key and then add the docker repository so that yo
 
 Next:
 
- `sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`  
+  
 
   
 
