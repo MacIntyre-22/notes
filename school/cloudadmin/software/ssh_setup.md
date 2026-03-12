@@ -6,9 +6,9 @@ A step-by-step guide to configuring SSH between a client and server, setting up 
 
 ## Prerequisites
 
-- Two Linux machines (referred to as **client** and **server**)
-- A user account with `sudo` privileges on both machines
-- Network connectivity between the two machines
+-   Two Linux machines (referred to as **client** and **server**)
+-   A user account with `sudo` privileges on both machines
+-   Network connectivity between the two machines
 
 ---
 
@@ -17,18 +17,9 @@ A step-by-step guide to configuring SSH between a client and server, setting up 
 On **both machines**, ensure OpenSSH is installed.
 
 **Debian/Ubuntu:**
+
 ```bash
 sudo apt update && sudo apt install openssh-server openssh-client -y
-```
-
-**RHEL/Fedora/CentOS:**
-```bash
-sudo dnf install openssh-server openssh-clients -y
-```
-
-**Arch Linux:**
-```bash
-sudo pacman -S openssh
 ```
 
 ---
@@ -38,9 +29,7 @@ sudo pacman -S openssh
 On the **server**, start and enable the SSH daemon so it runs on boot.
 
 ```bash
-sudo systemctl start ssh        # or 'sshd' on RHEL-based systems
-sudo systemctl enable ssh
-sudo systemctl status ssh       # confirm it's running
+sudo systemctl start ssh        # or 'sshd' on RHEL-based systemssudo systemctl enable sshsudo systemctl status ssh       # confirm it's running
 ```
 
 ---
@@ -50,9 +39,7 @@ sudo systemctl status ssh       # confirm it's running
 On the **server**, get its IP address:
 
 ```bash
-ip addr show
-# or
-hostname -I
+ip a
 ```
 
 Note the IP address — you'll need it from the client to connect.
@@ -66,8 +53,6 @@ From the **client**, verify basic SSH connectivity before setting up keys:
 ```bash
 ssh username@server-ip
 ```
-
-> Replace `username` with the actual user on the server, and `server-ip` with the server's IP address.
 
 Accept the host fingerprint when prompted, then exit:
 
@@ -86,14 +71,23 @@ ssh-keygen -t ed25519 -C "your_email_or_label"
 ```
 
 When prompted:
-- **File location** — press `Enter` to accept the default (`~/.ssh/id_ed25519`)
-- **Passphrase** — recommended; adds an extra layer of security to your private key
+
+-   **File location** — press `Enter` to accept the default (`~/.ssh/id_ed25519`)
+-   **Passphrase** — recommended; adds an extra layer of security to your private key
 
 This creates two files:
-| File | Description |
-|---|---|
-| `~/.ssh/id_ed25519` | Your **private key** — never share this |
-| `~/.ssh/id_ed25519.pub` | Your **public key** — this goes on the server |
+
+File
+
+Description
+
+`~/.ssh/id_ed25519`
+
+Your **private key** — never share this
+
+`~/.ssh/id_ed25519.pub`
+
+Your **public key** — this goes on the server
 
 ---
 
@@ -140,9 +134,7 @@ sudo nano /etc/ssh/sshd_config
 Find and update (or add) the following lines:
 
 ```
-PasswordAuthentication no
-PubkeyAuthentication yes
-AuthorizedKeysFile .ssh/authorized_keys
+PasswordAuthentication noPubkeyAuthentication yesAuthorizedKeysFile .ssh/authorized_keys
 ```
 
 Make sure `PasswordAuthentication` is set to `no` and is not commented out. Then save and close the file.
@@ -165,31 +157,49 @@ If the connection succeeds, password authentication is now disabled and only key
 
 ## Quick Reference
 
-| Task | Command |
-|---|---|
-| Generate key pair | `ssh-keygen -t ed25519` |
-| Copy key to server | `ssh-copy-id username@server-ip` |
-| Connect to server | `ssh username@server-ip` |
-| Restart SSH service | `sudo systemctl restart ssh` |
-| Check SSH status | `sudo systemctl status ssh` |
+Task
+
+Command
+
+Generate key pair
+
+`ssh-keygen -t ed25519`
+
+Copy key to server
+
+`ssh-copy-id username@server-ip`
+
+Connect to server
+
+`ssh username@server-ip`
+
+Restart SSH service
+
+`sudo systemctl restart ssh`
+
+Check SSH status
+
+`sudo systemctl status ssh`
 
 ---
 
 ## Troubleshooting
 
 **Permission denied (publickey):**
-- Check that `~/.ssh/authorized_keys` on the server has permissions `600`
-- Check that `~/.ssh/` on the server has permissions `700`
-- Confirm `PubkeyAuthentication yes` is set in `/etc/ssh/sshd_config`
+
+-   Check that `~/.ssh/authorized_keys` on the server has permissions `600`
+-   Check that `~/.ssh/` on the server has permissions `700`
+-   Confirm `PubkeyAuthentication yes` is set in `/etc/ssh/sshd_config`
 
 ```bash
-chmod 700 ~/.ssh
-chmod 600 ~/.ssh/authorized_keys
+chmod 700 ~/.sshchmod 600 ~/.ssh/authorized_keys
 ```
 
 **Connection refused:**
-- Confirm the SSH service is running on the server: `sudo systemctl status ssh`
-- Check firewall rules allow port 22: `sudo ufw allow ssh` (Ubuntu) or `sudo firewall-cmd --add-service=ssh --permanent` (RHEL)
+
+-   Confirm the SSH service is running on the server: `sudo systemctl status ssh`
+-   Check firewall rules allow port 22: `sudo ufw allow ssh` (Ubuntu) or `sudo firewall-cmd --add-service=ssh --permanent` (RHEL)
 
 **Still asked for a password after copying key:**
-- Run `ssh -v username@server-ip` for verbose output to debug the handshake
+
+-   Run `ssh -v username@server-ip` for verbose output to debug the handshake
