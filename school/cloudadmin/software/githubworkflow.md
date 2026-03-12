@@ -8,6 +8,7 @@
       - [Step 2) Select Type of Project:](#step-2-select-type-of-project)
   - [Setup Git Account](#setup-git-account)
   - [Starting a New Project](#starting-a-new-project)
+  - [Continue an Existing Project](#continue-an-existing-project)
   - [Check All Available Branches](#check-all-available-branches)
   - [Continue Working](#continue-working)
   - [Continue Work](#continue-work)
@@ -104,28 +105,40 @@ username@workstationname:~$ git config --global init.defaultBranch main
 The following is a guide that should be used when trying to create a new Git/GitHub project
 Note: The following commands assume they are being run in the root of the project
 1) Begin Starting a New Project by Creating the Repository
-username@workstationname:~$ git init
+
+`username@workstationname:~$ git init`
+
 2) Build a .gitignore file
+```bash
+
 username@workstationname:~$ touch .gitignore
 username@workstationname:~$ nano .gitignore"
+
+```
 Add the appropriate content to your file and save
 Note that you can find some great examples of gitignore files:
 
 Prefabicated gitignore
 Generate one
+
 3) Perform an Initial Commit for the main Branch
 username@workstationname:~$ git add .
 username@workstationname:~$ git commit -m "Initial Commit"
-3) Create a Development Branch
+
+1) Create a Development Branch
 username@workstationname:~$ git branch development
-4) Add the GitHub Remote Server
+
+1) Add the GitHub Remote Server
 username@workstationname:~$ git remote add origin repolink
-5) Upload the main Branch
+
+1) Upload the main Branch
 username@workstationname:~$ git push -u origin main
-6) Upload the Development Branch
+
+1) Upload the Development Branch
 username@workstationname:~$ git checkout development
 username@workstationname:~$ git push -u origin development
-Continue an Existing Project
+
+## Continue an Existing Project
 Clone a Project
 Download or Clone the Project from the Repository
 username@workstationname:~$ cd directoryYouWantToStoreProject
