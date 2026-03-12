@@ -1,3 +1,8 @@
+- [Ansible](#ansible)
+    - [Ad-hoc Commands](#ad-hoc-commands)
+    - [Playbook](#playbook)
+  - [How does it work?](#how-does-it-work)
+
 # Ansible
 #cloudadmin
 
