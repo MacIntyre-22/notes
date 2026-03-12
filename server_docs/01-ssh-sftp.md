@@ -1,4 +1,4 @@
-# SSH & SFTP Setup
+# SFTP Setup
 
 [[ssh_setup]]
 
