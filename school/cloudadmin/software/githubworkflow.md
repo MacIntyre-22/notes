@@ -5,7 +5,9 @@
 - [GitHub Workflow](#github-workflow)
   - [Quickstart Guide](#quickstart-guide)
       - [Step 1) Account Setup:](#step-1-account-setup)
+      - [Step 2) Select Type of Project:](#step-2-select-type-of-project)
   - [Setup Git Account](#setup-git-account)
+  - [Starting a New Project](#starting-a-new-project)
   - [Check All Available Branches](#check-all-available-branches)
   - [Continue Working](#continue-working)
   - [Continue Work](#continue-work)
@@ -75,22 +77,30 @@ Please note that this step only needs to be completed on the school computers. T
 machines will re-image every night. If Git has already been correctly configured on the workstation
 skip this step.
 
-[Setup Guide Here](Setup Git Account)
+[Setup Guide Here](#setup-git-account)
 
-Step 2) Select Type of Project:
+#### Step 2) Select Type of Project:
 After the account has been configured, select one of the two following options:
 Work on existing project
+
 Start new project
+
 ## Setup Git Account
 Global Configuration of Git
-The following commands configure the logged in computer account to always use the provided Git
-account:
+The following commands configure the logged in computer account to always use the provided Git account:
+
+```bash
+
 username@workstationname:~$ git config --global user.name “John Doe”
 username@workstationname:~$ git config --global user.email jdoe@example.com
 username@workstationname:~$ git config --global core.editor nano
 username@workstationname:~$ git config --global init.defaultBranch main
-Note: vim is a more common text editor that will be on most machines
-Starting a New Project
+
+```
+*Note: vim is a more common text editor that will be on most machines*
+
+
+## Starting a New Project
 The following is a guide that should be used when trying to create a new Git/GitHub project
 Note: The following commands assume they are being run in the root of the project
 1) Begin Starting a New Project by Creating the Repository
