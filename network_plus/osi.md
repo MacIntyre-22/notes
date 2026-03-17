@@ -7,6 +7,9 @@
   - [Layer 3 - Network Layer](#layer-3---network-layer)
   - [Layer 4 - Transport Layer](#layer-4---transport-layer)
   - [Layer 5 - Session Layer](#layer-5---session-layer)
+  - [Layer 6 - Presentation Layer](#layer-6---presentation-layer)
+  - [Layer 7 - Application Layer](#layer-7---application-layer)
+    - [Example](#example)
 
 ## Layer 1 - Physical Layer
 [[def#Layer 1 – Physical Layer]]
@@ -43,3 +46,23 @@
 - between devices
   - start stop restart
 - control protocols, tunneling protocols
+
+## Layer 6 - Presentation Layer
+[[def#Layer 6 – Presentation Layer]]
+- character encoding
+- app encryption
+- often combined with layer 7 application layer
+
+## Layer 7 - Application Layer
+[[def#Layer 7 – Application Layer]]
+- visual
+- http, ftp, dns, pop3
+
+### Example
+- Application: https://mail.google.com
+- Presentation: SSL encryption
+- Session: Link the presentation to the transport
+- Transport: TCP encapsulation
+- Network: IP encapsulation
+- Data Link: Ethernet
+- Physical: Electrical signals
