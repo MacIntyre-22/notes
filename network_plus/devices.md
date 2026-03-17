@@ -9,7 +9,7 @@
   - [Balancing the Load](#balancing-the-load)
   - [Load Balancer](#load-balancer)
   - [Proxies](#proxies)
-  - [NAS](#nas)
+  - [NAS vs SAN](#nas-vs-san)
 
 ## Networking Devices
 - many ways to forward traffic
@@ -92,4 +92,4 @@
 - transparent
   - some proxies are invisible
 
-## NAS
+## NAS vs SAN
