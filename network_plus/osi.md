@@ -2,7 +2,7 @@
 
 - [OSI](#osi)
   - [Layer 1 - Physical Layer](#layer-1---physical-layer)
-  - [Data Link Layer](#data-link-layer)
+  - [Layer 2 - Data Link Layer](#layer-2---data-link-layer)
 
 ## Layer 1 - Physical Layer
 - signaling, cabling, connectors
@@ -11,5 +11,7 @@
   - fix cabling, punchdows, etc
   - run loopback test, replace cables, swap adapter cards
 
-## Data Link Layer
-
+## Layer 2 - Data Link Layer
+- bbasic network language
+- foundation of communications
+- Data link control (DLC) protocols
