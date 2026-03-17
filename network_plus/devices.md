@@ -5,7 +5,11 @@
   - [Router](#router)
   - [Switch](#switch)
   - [Firewalls](#firewalls)
-  - [\[\[def#Firewall\]\]](#deffirewall)
+  - [IDS and IPS](#ids-and-ips)
+  - [Balancing the Load](#balancing-the-load)
+  - [Load Balancer](#load-balancer)
+  - [Proxies](#proxies)
+  - [NAS](#nas)
 
 ## Networking Devices
 - many ways to forward traffic
@@ -35,4 +39,57 @@
 
 ## Firewalls
 [[def#Firewall]]
-- 
+- filters traffic by port or app
+- encrypt traffic
+  - VPN between sites
+- layer 3
+  - often sites on ingress/egress of networks (north-south traffic)
+- Network Address Translation (NAT) [[def#NAT (Network Address Translation)]]
+- Dynamic routing
+
+## IDS and IPS
+[[def#IDS (Intrusion Detection System)]]
+[[def#IPS (Intrusion Prevention System)]]
+- watch network traffic
+- intrusion
+  - exploits against os, apps, etc
+  - buffer overflows, cross-site scripting, other vulnerabilities
+- Detection vs Prevention
+  - detection, alarm
+  - prevention, stop before it happens
+
+## Balancing the Load
+- distribute the load
+  - multiple servers
+  - invisible to end user
+- large scale implementations
+  - web server farms, db farms
+- fault tolerance
+  - server outages have no effect
+  - fast coverage
+
+## Load Balancer
+[[def#Load Balancer]]
+- config load
+  - manage across servers
+- tcp offload
+  - protocol overhead
+- ssl offload
+  - encryption/decryption
+- caching
+  - fast response
+- prioritization
+  - QoS [[def#QoS (Quality of Service)]]
+- content switching
+  - app centric balancing
+
+## Proxies
+[[def#Proxy]]
+- sits between the users and external network
+- recieves and sends request on their behalf
+- explicit
+  - apps may need to know how to use the proxy
+- transparent
+  - some proxies are invisible
+
+## NAS
