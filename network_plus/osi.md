@@ -9,7 +9,7 @@
   - [Layer 5 - Session Layer](#layer-5---session-layer)
   - [Layer 6 - Presentation Layer](#layer-6---presentation-layer)
   - [Layer 7 - Application Layer](#layer-7---application-layer)
-    - [Example](#example)
+  - [Example](#example)
 
 ## Layer 1 - Physical Layer
 [[def#Layer 1 – Physical Layer]]
@@ -58,7 +58,7 @@
 - visual
 - http, ftp, dns, pop3
 
-### Example
+## Example
 - Application: https://mail.google.com
 - Presentation: SSL encryption
 - Session: Link the presentation to the transport
