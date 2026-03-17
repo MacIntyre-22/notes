@@ -12,3 +12,4 @@
   
 ## Router
 [[def#Router]]
+- routes traffic between ip subnets [[def#Subnet Mask]]
