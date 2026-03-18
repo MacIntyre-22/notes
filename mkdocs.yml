@@ -1,5 +1,5 @@
 site_name: My Notes
-docs_dir: '/public'
+docs_dir: /public
 theme:
   name: material
   features:
