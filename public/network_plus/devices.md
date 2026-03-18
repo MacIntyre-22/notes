@@ -11,6 +11,7 @@
   - [Proxies](#proxies)
   - [NAS vs SAN](#nas-vs-san)
   - [Access Point](#access-point)
+  - [Wireless LAN Controllers](#wireless-lan-controllers)
 
 ## Networking Devices
 - many ways to forward traffic
@@ -111,3 +112,9 @@
 - is a bridge
   - extends wired netowrk to wireless network
   - osi layer 2 [[osi#Layer 2 - Data Link Layer]]
+
+## Wireless LAN Controllers
+[[def#Wireless LAN Controller (WLC)]]
+- centeralized management of access points
+- deploy new access points
+- monitoring etc.
