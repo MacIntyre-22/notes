@@ -1,0 +1,9 @@
+site_name: My Notes
+docs_dir: '/public'
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - search.suggest
+plugins:
+  - search
