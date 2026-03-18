@@ -69,7 +69,7 @@ On the **client**, generate a new key pair. Ed25519 is recommended for modern sy
 
 ```bash
 ssh-keygen -t ed25519 -C "your_email_or_label"
-ssh-keygen -f ~/.ssh/custom #create custom path
+ssh-keygen -f ~/.ssh/custom_key #create custom path
 ```
 
 When prompted:
