@@ -49,6 +49,7 @@
 
 ## IDS and IPS
 [[def#IDS (Intrusion Detection System)]]
+
 [[def#IPS (Intrusion Prevention System)]]
 - watch network traffic
 - intrusion
