@@ -2,6 +2,7 @@
 
 - [Networking Functions](#networking-functions)
   - [Networking Functions](#networking-functions-1)
+  - [Domain Name System (DNS)](#domain-name-system-dns)
   - [Content Delivery Network (CDN)](#content-delivery-network-cdn)
   - [Virtual Private Network (VPN)](#virtual-private-network-vpn)
   - [Quality of Service (QoS)](#quality-of-service-qos)
@@ -14,6 +15,10 @@
 - remote access w secure comms
 - traffic management
 - protocol support
+
+## Domain Name System (DNS)
+[[def#DNS (Domain Name System)]]
+- dns lookups
 
 ## Content Delivery Network (CDN)
 [[def#CDN (Content Delivery Network)]]
@@ -40,6 +45,12 @@
 - clear a cache
 
 ## Routing Loops
-[[def#loop]]
 - two routers think the next hop is to each other
 - creates loops, ttl stops this
+- Loops could cause a packet to live forever
+- Drop the packet after a certain number of hops
+- Each pass through a router is a hop
+  - Default TTL for macOS/Linux is 64 hops
+  - Default TTL for Windows is 128 hops
+- The router decreases TTL by 1
+  - A TTL of zero is dropped by the router
