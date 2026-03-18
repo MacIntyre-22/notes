@@ -4,4 +4,4 @@ WORKDIR /docs
 COPY . .
 RUN mkdocs build
 FROM nginx:alpine
-COPY --from=0 /docs/site /usr/share/nginx/html
+COPY --from=builder /docs/site /usr/share/nginx/html
