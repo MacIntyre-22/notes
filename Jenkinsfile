@@ -14,7 +14,7 @@ pipeline {
                     docker run -d \
                         --name my-notes \
                         --network your-nginx-network \
-                        -p 8085:80 \             
+                        -p 8085:80 \
                         --restart unless-stopped \
                         my-notes:latest
                 '''
