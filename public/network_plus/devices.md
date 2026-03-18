@@ -10,6 +10,7 @@
   - [Load Balancer](#load-balancer)
   - [Proxies](#proxies)
   - [NAS vs SAN](#nas-vs-san)
+  - [Access Point](#access-point)
 
 ## Networking Devices
 - many ways to forward traffic
@@ -94,6 +95,9 @@
   - some proxies are invisible
 
 ## NAS vs SAN
+[[def#NAS (Network Attached Storage)]]
+
+[[def#SAN (Storage Area Network)]]
 - Network Attached Storage (NAS)
   - connect to shared storage across network
   - file level access
@@ -101,3 +105,9 @@
   - looks and feels like local storage
   - block level access
   - efficient reading and writing
+
+## Access Point
+[[def#Access Point (AP)]]
+- is a bridge
+  - extends wired netowrk to wireless network
+  - osi layer 2 [[osi#Layer 2 - Data Link Layer]]
