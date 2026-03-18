@@ -3,16 +3,16 @@
 - [Common Ports](#common-ports)
   - [Lots of Ports](#lots-of-ports)
 - [Common Ports Reference](#common-ports-reference)
-    - [FTP](#ftp)
-    - [SSH](#ssh)
-    - [Telnet](#telnet)
-    - [SMTP](#smtp)
-    - [DNS](#dns)
-    - [DHCP](#dhcp)
-    - [TFTP](#tftp)
-    - [HTTP](#http)
+    - [FTP (File Transfer Protocol)](#ftp-file-transfer-protocol)
+    - [SSH (Secure Shell)](#ssh-secure-shell)
+    - [Telnet (Telecomm Network)](#telnet-telecomm-network)
+    - [SMTP (Simple Mail Transfer Protocol)](#smtp-simple-mail-transfer-protocol)
+    - [DNS (Domain Name System)](#dns-domain-name-system)
+    - [DHCP (Dynamic Host Config Protocol)](#dhcp-dynamic-host-config-protocol)
+    - [TFTP (Trivial File Transfer Protocol)](#tftp-trivial-file-transfer-protocol)
+    - [HTTP (Hypertext Transfer Protocol)](#http-hypertext-transfer-protocol)
     - [Kerberos](#kerberos)
-    - [POP3](#pop3)
+    - [POP3 ()](#pop3-)
     - [NTP](#ntp)
     - [NetBIOS](#netbios)
     - [IMAP](#imap)
@@ -49,34 +49,34 @@
 
 # Common Ports Reference
 
-### FTP
+### FTP (File Transfer Protocol)
 - tcp/20 (active mode data), tcp/21 (control)
 
-### SSH
+### SSH (Secure Shell)
 - tcp/22
 
-### Telnet
+### Telnet (Telecomm Network)
 - tcp/23
 
-### SMTP
+### SMTP (Simple Mail Transfer Protocol)
 - tcp/25
 
-### DNS
+### DNS (Domain Name System)
 - tcp/53, udp/53
 
-### DHCP
+### DHCP (Dynamic Host Config Protocol)
 - udp/67 (server), udp/68 (client)
 
-### TFTP
+### TFTP (Trivial File Transfer Protocol)
 - udp/69
 
-### HTTP
+### HTTP (Hypertext Transfer Protocol)
 - tcp/80
 
 ### Kerberos
 - tcp/88, udp/88
 
-### POP3
+### POP3 ()
 - tcp/110
 
 ### NTP
