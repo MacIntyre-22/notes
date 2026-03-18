@@ -3,7 +3,7 @@
 
 [Jenkins](https://www.jenkins.io/doc/ "Jenkins Documentation")
 
-Jenkins is an open source automation serverAllows for build, test, and deploy automationsCI/CD, continuous integration and continuous deployment
+Jenkins is an open source automation server. Allows for build, test, and deploy automationsCI/CD, continuous integration and continuous deployment
 
 Jenkins creates automation for all kinds of different development
 
