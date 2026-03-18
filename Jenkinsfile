@@ -13,7 +13,7 @@ pipeline {
                     docker rm my-notes || true
                     docker run -d \
                         --name my-notes \
-                        --network your-nginx-network \
+                        --network npm-network \
                         -p 8085:80 \
                         --restart unless-stopped \
                         my-notes:latest
