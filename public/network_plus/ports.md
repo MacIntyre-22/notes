@@ -13,13 +13,13 @@
     - [HTTP (Hypertext Transfer Protocol)](#http-hypertext-transfer-protocol)
     - [Kerberos](#kerberos)
     - [POP3 ()](#pop3-)
-    - [NTP](#ntp)
+    - [NTP (Network Time Protocol)](#ntp-network-time-protocol)
     - [NetBIOS](#netbios)
     - [IMAP](#imap)
-    - [SNMP](#snmp)
-    - [LDAP](#ldap)
-    - [HTTPS](#https)
-    - [SMB](#smb)
+    - [SNMP (Simple Network Management Protocol)](#snmp-simple-network-management-protocol)
+    - [LDAP (Lightweight Dir Access Protocol)](#ldap-lightweight-dir-access-protocol)
+    - [HTTPS (Http Secure)](#https-http-secure)
+    - [SMB (Server Message Block)](#smb-server-message-block)
     - [SMTP (TLS)](#smtp-tls)
   - [IKE (Internet Key Exchange)](#ike-internet-key-exchange)
     - [Syslog](#syslog)
@@ -80,7 +80,7 @@
 ### POP3 ()
 - tcp/110
 
-### NTP
+### NTP (Network Time Protocol)
 - udp/123
 
 ### NetBIOS
@@ -89,16 +89,16 @@
 ### IMAP
 - tcp/143
 
-### SNMP
+### SNMP (Simple Network Management Protocol)
 - udp/161 (agent), udp/162 (trap)
 
-### LDAP
+### LDAP (Lightweight Dir Access Protocol)
 - tcp/389, udp/389
 
-### HTTPS
+### HTTPS (Http Secure)
 - tcp/443
 
-### SMB
+### SMB (Server Message Block)
 - tcp/445
 
 ### SMTP (TLS)
