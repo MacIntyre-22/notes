@@ -2,6 +2,8 @@
 
 - [Common Ports](#common-ports)
   - [Lots of Ports](#lots-of-ports)
+    - [FTP](#ftp)
+    - [](#)
 
 ## Lots of Ports
 - Non-ephemeral ports – permanent port numbers
@@ -9,3 +11,9 @@
 - Ephemeral ports – temporary port numbers
   - Ports 1,024 through 65,535
   - Determined in real-time by the client
+
+
+### FTP
+- tcp/20 (active mode data), tcp/21 (control)
+
+### 
