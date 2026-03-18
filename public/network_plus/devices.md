@@ -94,3 +94,10 @@
   - some proxies are invisible
 
 ## NAS vs SAN
+- Network Attached Storage (NAS)
+  - connect to shared storage across network
+  - file level access
+- Storage Area Network (SAN)
+  - looks and feels like local storage
+  - block level access
+  - efficient reading and writing
