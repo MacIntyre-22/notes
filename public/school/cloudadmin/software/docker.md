@@ -28,4 +28,3 @@ sudo apt update
 ```
 The above will add dockers GPG key and then add the docker repository so that you may install docker from it.
 
-Next:
