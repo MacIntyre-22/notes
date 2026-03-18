@@ -18,7 +18,8 @@
 
 ## Domain Name System (DNS)
 [[def#DNS (Domain Name System)]]
-- dns lookups
+- dns lookups resolve an ip to a FQDN
+- a device cache the lookup for a ttl amount of time
 
 ## Content Delivery Network (CDN)
 [[def#CDN (Content Delivery Network)]]
