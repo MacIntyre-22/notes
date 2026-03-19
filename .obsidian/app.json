@@ -1,1 +1,16 @@
-{}
+{
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "showLineNumber": false,
+  "rightToLeft": false,
+  "spellcheck": false,
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true,
+  "trashOption": "local",
+  "showInlineTitle": false,
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./",
+  "newLinkFormat": "absolute"
+}

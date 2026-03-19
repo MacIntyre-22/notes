@@ -1,1 +1,8 @@
-{}
+{
+  "theme": "obsidian",
+  "accentColor": "#699eb5",
+  "showRibbon": true,
+  "baseFontSizeAction": true,
+  "nativeMenus": false,
+  "baseFontSize": 17
+}

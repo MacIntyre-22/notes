@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e4cf440397f6bd46",
+        "id": "f80afef848997960",
         "type": "tabs",
         "children": [
           {
-            "id": "e8fed74dfa996aa0",
+            "id": "0a95eb4ba67e0989",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school/azure/bookproject.md",
+                "file": "network_plus/functions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,59 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "bookproject"
-            }
-          },
-          {
-            "id": "3969a8326b04e718",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Test.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Test"
-            }
-          },
-          {
-            "id": "7a360c771850d4b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Test 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Test 2"
+              "title": "functions"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 279.5
   },
   "right": {
     "id": "a9ab446f14c0fa60",
@@ -153,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test 2.md",
+                "file": "network_plus/functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Test 2"
+              "title": "Backlinks for functions"
             }
           },
           {
@@ -172,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test 2.md",
+                "file": "network_plus/functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Test 2"
+              "title": "Outgoing links from functions"
             }
           },
           {
@@ -215,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test 2.md",
+                "file": "network_plus/functions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Test 2"
+              "title": "Outline of functions"
             }
           },
           {
@@ -232,6 +183,28 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "007c791ef55c8637",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "network_plus/functions.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
+            "id": "b0ea5b139542595d",
+            "type": "leaf",
+            "state": {
+              "type": "cts-view",
+              "state": {},
+              "icon": "paintbrush",
+              "title": "Custom Theme Studio"
             }
           }
         ],
@@ -246,50 +219,52 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "bases:Create new base": true,
+      "obsidian-git:Open Git source control": false,
+      "markdown-importer:Open format converter": true,
+      "publish:Publish changes...": true,
+      "custom-theme-studio:Custom Theme Studio": true
     }
   },
-  "active": "7a360c771850d4b9",
+  "active": "0a95eb4ba67e0989",
   "lastOpenFiles": [
-    "Test.md",
-    "Test 2.md",
-    "school/azure/bookproject.md",
-    "network_plus/devices.md",
     "network_plus/def.md",
-    "unity/2dlighting.md",
-    "unity",
+    "network_plus/devices.md",
+    "network_plus/functions.md",
+    "network_plus/osi.md",
+    "network_plus/ports.md",
+    "server_docs/server_overview.md",
     "server_docs/11-forgejo-runner-deploy.md",
-    "server_docs/10-forgejo.md",
-    "server_docs/server_overview",
-    "server_docs/06-apache-portfolio.md",
-    "server_docs/09-new-container-deploy.md",
-    "server_docs/07-docker-networking.md",
-    "server_docs/08-cloudflare-dns.md",
-    "server_docs/05-nginx-proxy-manager.md",
-    "server_docs/04-filebrowser.md",
-    "server_docs/03-docker-portainer.md",
-    "server_docs/02-network-drive-windows.md",
-    "server_docs/01-ssh-sftp.md",
-    "server_docs",
-    "school/cloudadmin/software/virtualbox.md",
-    "school/cloudadmin/software/ssh_setup.md",
-    "school/cloudadmin/software/jenkins.md",
-    "school/cloudadmin/software/githubworkflow.pdf",
-    "school/cloudadmin/software/githubworkflow.md",
+    "unity/2dlighting.md",
+    "school/azure/bookproject.md",
+    "school/capstone/meetings.md",
     "school/cloudadmin/software/docker.md",
     "school/cloudadmin/software/ansible.md",
+    "server_docs/03-docker-portainer.md",
+    "server_docs/04-filebrowser.md",
+    "server_docs/05-nginx-proxy-manager.md",
+    "server_docs/06-apache-portfolio.md",
     "school/cloudadmin/labs/pipline_project.md",
-    "school/cloudadmin/labs/ansible_project.md",
-    "school/gamdev/exam_notes.md",
+    "school/cloudadmin/software/ssh_setup.md",
+    "school/cloudadmin/software/jenkins.md",
+    "school/cloudadmin/software/githubworkflow.md",
+    "laravel_saas/project.md",
+    "server_docs/07-docker-networking.md",
+    "server_docs/08-cloudflare-dns.md",
+    "Untitled.base",
+    "network_plus/n10-009-notes-pm.pdf",
+    "network_plus/voucher_discount.md",
+    "server_docs/01-ssh-sftp.md",
+    "Test 2.md",
+    "unity",
+    "server_docs",
+    "school/cloudadmin/software/githubworkflow.pdf",
     "school/cloudadmin/software",
     "school/cloudadmin/labs",
     "school/gamdev",
-    "school/swift",
-    "school/flutter",
-    "school/concepts"
+    "school/swift"
   ]
 }

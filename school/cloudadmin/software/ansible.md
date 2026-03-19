@@ -1,10 +1,8 @@
-- [Ansible](#ansible)
-    - [Ad-hoc Commands](#ad-hoc-commands)
-    - [Playbook](#playbook)
-  - [How does it work?](#how-does-it-work)
-
 # Ansible
 #cloudadmin
+
+```table-of-contents
+```
 
 - Ansible is a tool originally made by a developer named Michael Dehaan in 2012
 - used to:
@@ -17,7 +15,7 @@
 
 ### Ad-hoc Commands
 
-- commands that can be run in real time to perform a specific actio to any devices managed with ansible
+- commands that can be run in real time to perform a specific action to any devices managed with ansible
 
 ### Playbook
 

@@ -1,46 +1,6 @@
 # Common Ports
-
-- [Common Ports](#common-ports)
-  - [Lots of Ports](#lots-of-ports)
-- [Common Ports Reference](#common-ports-reference)
-    - [FTP (File Transfer Protocol)](#ftp-file-transfer-protocol)
-    - [SSH (Secure Shell)](#ssh-secure-shell)
-    - [Telnet (Telecomm Network)](#telnet-telecomm-network)
-    - [SMTP (Simple Mail Transfer Protocol)](#smtp-simple-mail-transfer-protocol)
-    - [DNS (Domain Name System)](#dns-domain-name-system)
-    - [DHCP (Dynamic Host Config Protocol)](#dhcp-dynamic-host-config-protocol)
-    - [TFTP (Trivial File Transfer Protocol)](#tftp-trivial-file-transfer-protocol)
-    - [HTTP (Hypertext Transfer Protocol)](#http-hypertext-transfer-protocol)
-    - [Kerberos](#kerberos)
-    - [POP3 ()](#pop3-)
-    - [NTP (Network Time Protocol)](#ntp-network-time-protocol)
-    - [NetBIOS](#netbios)
-    - [IMAP](#imap)
-    - [SNMP (Simple Network Management Protocol)](#snmp-simple-network-management-protocol)
-    - [LDAP (Lightweight Dir Access Protocol)](#ldap-lightweight-dir-access-protocol)
-    - [HTTPS (Http Secure)](#https-http-secure)
-    - [SMB (Server Message Block)](#smb-server-message-block)
-    - [SMTP (TLS)](#smtp-tls)
-  - [IKE (Internet Key Exchange)](#ike-internet-key-exchange)
-    - [Syslog](#syslog)
-    - [SMTPS / SMTP (STARTTLS)](#smtps--smtp-starttls)
-    - [LDAPS](#ldaps)
-    - [FTP (Implicit TLS)](#ftp-implicit-tls)
-    - [FTPS (Data)](#ftps-data)
-    - [IMAP (TLS)](#imap-tls)
-    - [POP3 (TLS)](#pop3-tls)
-    - [OpenVPN](#openvpn)
-    - [MSSQL](#mssql)
-    - [Oracle DB](#oracle-db)
-    - [PPTP](#pptp)
-    - [MySQL / MariaDB](#mysql--mariadb)
-    - [RDP](#rdp)
-    - [XMPP](#xmpp)
-    - [PostgreSQL](#postgresql)
-    - [VNC](#vnc)
-    - [HTTP Alt](#http-alt)
-    - [HTTPS Alt](#https-alt)
-
+```table-of-contents
+```
 ## Lots of Ports
 - Non-ephemeral ports – permanent port numbers
   - Ports 0 through 1,023
@@ -48,7 +8,7 @@
   - Ports 1,024 through 65,535
   - Determined in real-time by the client
 
-# Common Ports Reference
+# Ports & Protocols
 
 ### FTP (File Transfer Protocol)
 - tcp/20 (active mode data), tcp/21 (control)
@@ -104,7 +64,7 @@
 ### SMTP (TLS)
 - tcp/465
 
-## IKE (Internet Key Exchange)
+### IKE (Internet Key Exchange)
 - udp/500
 
 ### Syslog

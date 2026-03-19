@@ -1,15 +1,6 @@
 # Meeting Minutes
-
-- [Meeting Minutes](#meeting-minutes)
-  - [January 13th](#january-13th)
-  - [January 19th](#january-19th)
-  - [January 22th](#january-22th)
-  - [January 25th](#january-25th)
-  - [February 5th](#february-5th)
-  - [February 12th](#february-12th)
-  - [February 19th](#february-19th)
-  - [March 5th](#march-5th)
-  - [March 12th](#march-12th)
+```table-of-contents
+```
 
 ## January 13th
 **Notes:**

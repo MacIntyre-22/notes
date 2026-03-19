@@ -350,7 +350,7 @@ git blame (filename)List change dates of a file and the author who made them
 ## Glossary
 main Branch
 This branch should be treated as client facing and should always be conflict free
-## Development Branch
+##Development Branch
 This branch should be treated as the main development branch and should always be conflict free
 This branch is kept conflict free because it allows any developer to join the team at any time
 ## Git

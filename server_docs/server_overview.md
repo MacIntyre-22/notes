@@ -1,4 +1,6 @@
 # Server Tech Stack
+```table-of-contents
+```
 
 ## Operating System
 
@@ -81,13 +83,13 @@ Used to serve web projects. Each project runs as its own Apache container with a
 
 ## Network Summary
 
-|Service          |Access                    |Port         |
-|-----------------|--------------------------|-------------|
-|Portainer        |Local only                |9000         |
-|Filebrowser      |Public (Cloudflare Access)|8080 internal|
-|Forgejo          |Public (Cloudflare Access)|3000 internal|
-|Homarr           |Local only                |7575 internal|
-|Dashdot          |Local only                |3001 internal|
-|Apache containers|Public via NPM            |80 internal  |
-|SSH / SFTP       |Local only                |22           |
-|Forgejo SSH      |Local only                |2222         |
+| Service           | Access                     | Port          |
+| ----------------- | -------------------------- | ------------- |
+| Portainer         | Local only                 | 9000          |
+| Filebrowser       | Public (Cloudflare Access) | 8080 internal |
+| Forgejo           | Public (Cloudflare Access) | 3000 internal |
+| Homarr            | Local only                 | 7575 internal |
+| Dashdot           | Local only                 | 3001 internal |
+| Apache containers | Public via NPM             | 80 internal   |
+| SSH / SFTP        | Local only                 | 22            |
+| Forgejo SSH       | Local only                 | 2222          |

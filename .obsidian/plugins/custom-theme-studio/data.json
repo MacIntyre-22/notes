@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "themeEnabled": true,
+  "customCSS": "/* span.cm-list-2 */\nspan {\n\tcolor: #fff8f0;\n    \n    \n}\n\n/* div.notice */\ndiv.notice {\n\tbackground: rgba(255, 255, 255, 0.1);\n\tborder: 0.75px solid gray;\n\tborder-radius: 50px;\n    \n    \n    \n    \n}\n\n",
+  "cssVariables": [],
+  "cssRules": [
+    {
+      "uuid": "a89c25b1-bc46-4127-bdf5-7c8b8b8153e8",
+      "rule": "span.cm-list-2",
+      "css": "span {\n\tcolor: #fff8f0;\n    \n    \n}",
+      "enabled": true
+    },
+    {
+      "uuid": "018d3613-18d5-4c1f-8835-c94b072d0b36",
+      "rule": "div.notice",
+      "css": "div.notice {\n\tbackground: rgba(255, 255, 255, 0.1);\n\tborder: 0.75px solid gray;\n\tborder-radius: 50px;\n    \n    \n    \n    \n}",
+      "enabled": true
+    }
+  ],
+  "exportThemeName": "My Custom Theme",
+  "exportThemeAuthor": "Anonymous",
+  "exportThemeURL": "https://github.com/obsidianmd",
+  "exportThemeIncludeDisabled": false,
+  "exportPrettierFormat": true,
+  "lastSelectedSelector": "",
+  "expandCSSVariables": true,
+  "expandCSSRules": true,
+  "expandExportTheme": false,
+  "expandEditorSettings": false,
+  "expandedVariableCategories": [
+    "variable-category-themedark"
+  ],
+  "activeVariableTagFilter": "theme-dark",
+  "autoApplyChanges": false,
+  "variableInputListener": "change",
+  "generateComputedCSS": false,
+  "showConfirmation": true,
+  "enableFontImport": false,
+  "enableColorPicker": true,
+  "enableAceAutoCompletion": false,
+  "enableAceSnippets": false,
+  "enableAceColorPicker": false,
+  "editorLineNumbers": true,
+  "editorWordWrap": false,
+  "editorFontSize": 15,
+  "editorFontFamily": "",
+  "editorTabWidth": 4,
+  "editorTheme": "Auto",
+  "editorLightTheme": "github_light_default",
+  "editorDarkTheme": "github_dark",
+  "editorKeyboard": "default",
+  "viewScrollToTop": true,
+  "debugLevel": "none",
+  "selectorStyle": "specific",
+  "selectorPreferClasses": false,
+  "selectorAlwaysIncludeTag": false,
+  "selectorExcludedAttributes": "data-tooltip-*\ndata-delay\naria-expanded\naria-current\naria-controls\naria-describedby",
+  "cssEditorDebounceDelay": 500
+}

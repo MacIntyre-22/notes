@@ -1,14 +1,6 @@
 # Networking Functions
-
-- [Networking Functions](#networking-functions)
-  - [Networking Functions](#networking-functions-1)
-  - [Domain Name System (DNS)](#domain-name-system-dns)
-  - [Content Delivery Network (CDN)](#content-delivery-network-cdn)
-  - [Virtual Private Network (VPN)](#virtual-private-network-vpn)
-  - [Quality of Service (QoS)](#quality-of-service-qos)
-  - [Time to Live (TTL)](#time-to-live-ttl)
-  - [Routing Loops](#routing-loops)
-
+```table-of-contents
+```
 
 ## Networking Functions
 - part of the infrastructure
@@ -17,31 +9,32 @@
 - protocol support
 
 ## Domain Name System (DNS)
-[[def#DNS (Domain Name System)]]
+[DNS (Domain Name System)](def.md#DNS%20(Domain%20Name%20System))
 - dns lookups resolve an ip to a FQDN
 - a device cache the lookup for a ttl amount of time
 
 ## Content Delivery Network (CDN)
-[[def#CDN (Content Delivery Network)]]
+[CDN (Content Delivery Network)](def.md#CDN%20(Content%20Delivery%20Network))
 - time to get data much shorter
 - duplicate data across servers so people get it from local areas instead of across the world
 - invs to end user
 
 ## Virtual Private Network (VPN)
-[[def#VPN (Virtual Private Network)]]
+[VPN (Virtual Private Network)](def.md#VPN%20(Virtual%20Private%20Network))
 - secure private data traversing a public network
   - encrypted coms on insecure medium
 - Concentrator / head-end Encryption/decryption access device
   - Often integrated into a firewall
 
 ## Quality of Service (QoS)
-[[def#QoS (Quality of Service)]]
+[n10-009-notes-pm, page 12](n10-009-notes-pm.pdf#page=12&selection=109,0,109,24)
+[QoS (Quality of Service)](def.md#QoS%20(Quality%20of%20Service))
 - traffic shaping, packet shaping
 - control by bandwidth usage or data rates
 - set priority for certain apps
 
 ## Time to Live (TTL)
-[[def#TTL (Time to Live)]]
+[TTL (Time to Live)](def.md#TTL%20(Time%20to%20Live))
 - uses like dropping a packet after certain amount of hops/ stuck in loop
 - clear a cache
 

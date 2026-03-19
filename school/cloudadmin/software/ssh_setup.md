@@ -1,4 +1,6 @@
 # SSH Setup
+```table-of-contents
+```
 ### Between Two Linux Machines
 
 A step-by-step guide to configuring SSH between a client and server, setting up key-based authentication, and optionally disabling password authentication.
