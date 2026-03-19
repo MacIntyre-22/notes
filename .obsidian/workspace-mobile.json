@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c5acb4bbb9ff35a2",
+        "id": "eb47e7f9055cb24c",
         "type": "tabs",
         "children": [
           {
-            "id": "3f26042a1a9270da",
+            "id": "e35ce09780d262c3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -172,6 +172,42 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3f26042a1a9270da",
-  "lastOpenFiles": []
+  "active": "e35ce09780d262c3",
+  "lastOpenFiles": [
+    "network_plus/n10-009-notes-pm.pdf",
+    "conflict-files-obsidian-git.md",
+    "school/cloudadmin/software/githubworkflow.md",
+    "school/capstone/meetings.md",
+    "school/capstone",
+    "school/azure/bookproject.md",
+    "school/azure",
+    "network_plus/def.md",
+    "network_plus/voucher_discount.md",
+    "network_plus/ports.md",
+    "network_plus/osi.md",
+    "network_plus/functions.md",
+    "network_plus/devices.md",
+    "network_plus",
+    "server_docs/server_overview",
+    "laravel_saas/project.md",
+    "laravel_saas",
+    "unity/2dlighting.md",
+    "unity",
+    "school/cloudadmin/software/githubworkflow.pdf",
+    "school/cloudadmin/software/docker.md",
+    "school/cloudadmin/software/ansible.md",
+    "school/cloudadmin/software/virtualbox.md",
+    "school/cloudadmin/software/ssh_setup.md",
+    "school/cloudadmin/software/jenkins.md",
+    "school/cloudadmin/labs/pipline_project.md",
+    "school/cloudadmin/labs/ansible_project.md",
+    "school/cloudadmin/cloud_admin.md",
+    "school/cloudadmin/software",
+    "school/cloudadmin/labs",
+    "school/concepts/concepts.md",
+    "school/swift/final_commenting_rules.md",
+    "school/flutter/changenotifier.md",
+    "school/flutter/hive.md",
+    "school/cisco/intro_cybersecurity.md"
+  ]
 }
