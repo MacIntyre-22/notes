@@ -1,6 +1,6 @@
 # Pipline Project
 
-- transferring agents jobs to a pipline project [[jenkins]]
+- transferring agents jobs to a pipline project
 - need pipeline plugins
 - need GitHub plugins, if it invloves code management with github
 
@@ -13,7 +13,7 @@
 
 ## Single Branch Pipeline
 
-```yml
+```bash
 pipeline {
     agent any
     stages {
@@ -49,7 +49,7 @@ pipeline {
 
 - add Jenkinsfile to the repo
 
-```yml
+```bash
 pipeline {
     agent any
     environment {

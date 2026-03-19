@@ -1,4 +1,10 @@
+- [Ansible](#ansible)
+    - [Ad-hoc Commands](#ad-hoc-commands)
+    - [Playbook](#playbook)
+  - [How does it work?](#how-does-it-work)
+
 # Ansible
+#cloudadmin
 
 - Ansible is a tool originally made by a developer named Michael Dehaan in 2012
 - used to:
@@ -18,7 +24,7 @@
 - is a reproducible declarative file that can be used to perform specific actions to any devices managed with ansible
 
 ## How does it work?
-
+[[ansible_project]]
 - installed on control node
     - a control node can be any computer
     

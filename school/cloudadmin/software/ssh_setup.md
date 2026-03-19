@@ -1,4 +1,5 @@
-# SSH Setup Between Two Linux Machines
+# SSH Setup
+### Between Two Linux Machines
 
 A step-by-step guide to configuring SSH between a client and server, setting up key-based authentication, and optionally disabling password authentication.
 
@@ -68,6 +69,7 @@ On the **client**, generate a new key pair. Ed25519 is recommended for modern sy
 
 ```bash
 ssh-keygen -t ed25519 -C "your_email_or_label"
+ssh-keygen -f ~/.ssh/custom_key #create custom path
 ```
 
 When prompted:

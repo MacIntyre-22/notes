@@ -1,0 +1,246 @@
+{
+  "main": {
+    "id": "cdd643c15b388bca",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4cf440397f6bd46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8fed74dfa996aa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network_plus/devices.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "devices"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1187a8c1d3d16087",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c11a045e10e8ffd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8669e67be0671a53",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5b3542fb0850d2b7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bceea4d36e6097b7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a9ab446f14c0fa60",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1e6ea3c0be1c40d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc2fba9482f6f121",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "network_plus/devices.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for devices"
+            }
+          },
+          {
+            "id": "443d51f718459f6f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "network_plus/devices.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from devices"
+            }
+          },
+          {
+            "id": "d63d7cb1e83e371e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d87829dd4f048663",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "fa685e1fdd4674c2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "network_plus/devices.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of devices"
+            }
+          },
+          {
+            "id": "017b6d62a0d207bd",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 674.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "e8fed74dfa996aa0",
+  "lastOpenFiles": [
+    "network_plus/def.md",
+    "network_plus/devices.md",
+    "unity/2dlighting.md",
+    "unity",
+    "server_docs/11-forgejo-runner-deploy.md",
+    "server_docs/10-forgejo.md",
+    "server_docs/server_overview",
+    "server_docs/06-apache-portfolio.md",
+    "server_docs/09-new-container-deploy.md",
+    "server_docs/07-docker-networking.md",
+    "server_docs/08-cloudflare-dns.md",
+    "server_docs/05-nginx-proxy-manager.md",
+    "server_docs/04-filebrowser.md",
+    "server_docs/03-docker-portainer.md",
+    "server_docs/02-network-drive-windows.md",
+    "server_docs/01-ssh-sftp.md",
+    "server_docs",
+    "school/cloudadmin/software/virtualbox.md",
+    "school/cloudadmin/software/ssh_setup.md",
+    "school/cloudadmin/software/jenkins.md",
+    "school/cloudadmin/software/githubworkflow.pdf",
+    "school/cloudadmin/software/githubworkflow.md",
+    "school/cloudadmin/software/docker.md",
+    "school/cloudadmin/software/ansible.md",
+    "school/cloudadmin/labs/pipline_project.md",
+    "school/cloudadmin/labs/ansible_project.md",
+    "school/gamdev/exam_notes.md",
+    "school/gamdev/components.md",
+    "school/flutter/hive.md",
+    "school/swift/final_commenting_rules.md",
+    "school/cloudadmin/software",
+    "school/cloudadmin/labs",
+    "school/gamdev",
+    "school/swift",
+    "school/flutter",
+    "school/concepts"
+  ]
+}
