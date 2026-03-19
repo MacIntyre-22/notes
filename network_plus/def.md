@@ -1,6 +1,6 @@
 # Definitions
 
-### [OSI](network_plus/01-concepts/osi.md) Model (Open Systems Interconnection Reference Model)
+### [OSI](osi.md) Model (Open Systems Interconnection Reference Model)
 - A 7-layer conceptual framework used to understand and standardize how data travels across a network. Mnemonic: **All People Seem To Need Data Processing** (Application, Presentation, Session, Transport, Network, Data Link, Physical).
 
 ### Layer 1 – Physical Layer
@@ -16,7 +16,7 @@
 - The "post office" layer. Uses TCP and UDP to deliver data between endpoints. Handles multiplexing, flow control, and error recovery.
 
 ### Layer 5 – Session Layer
-- Manages communication sessions between [devices](network_plus/01-concepts/devices.md): start, stop, restart. Includes control protocols and tunneling protocols.
+- Manages communication sessions between [devices](devices.md): start, stop, restart. Includes control protocols and tunneling protocols.
 
 ### Layer 6 – Presentation Layer
 - Handles character encoding and application encryption. Often combined with the Application Layer in practice.
@@ -25,10 +25,10 @@
 - The layer end users interact with. Includes protocols like HTTP, FTP, DNS, and POP3.
 
 ### Router
-- An [OSI](network_plus/01-concepts/osi.md) Layer 3 device that routes traffic between IP subnets. Connects diverse network types such as LAN, WAN, copper, and fiber. Sometimes called a "Layer 3 switch" when built into a switch.
+- An [OSI](osi.md) Layer 3 device that routes traffic between IP subnets. Connects diverse network types such as LAN, WAN, copper, and fiber. Sometimes called a "Layer 3 switch" when built into a switch.
 
 ### Switch
-- An [OSI](network_plus/01-concepts/osi.md) Layer 2 device that forwards traffic based on MAC addresses using application-specific integrated circuits (ASICs). The core of an enterprise network; may provide Power over Ethernet (PoE). A multilayer switch also includes Layer 3 routing.
+- An [OSI](osi.md) Layer 2 device that forwards traffic based on MAC addresses using application-specific integrated circuits (ASICs). The core of an enterprise network; may provide Power over Ethernet (PoE). A multilayer switch also includes Layer 3 routing.
 
 ### Firewall
 - Filters traffic by port number or application. Can encrypt traffic via VPN, perform NAT, and act as a Layer 3 router. Traditional firewalls vs. Next-Generation Firewalls (NGFW).
@@ -52,7 +52,7 @@
 - A storage system that appears as a local storage device to the host. Uses block-level access and is very efficient for reading and writing. Often uses an isolated, high-speed network.
 
 ### Access Point (AP)
-- An [OSI](network_plus/01-concepts/osi.md) Layer 2 bridge that extends a wired network to wireless clients. A wireless router combines an AP and a router in one device.
+- An [OSI](osi.md) Layer 2 bridge that extends a wired network to wireless clients. A wireless router combines an AP and a router in one device.
 
 ### Wireless LAN Controller (WLC)
 - Provides centralized management of multiple access points from a single console. Handles deployment, monitoring, configuration, and reporting. Usually proprietary.
@@ -73,7 +73,7 @@
 - Translates human-readable domain names into IP addresses. Uses a hierarchical, distributed database with root servers, TLDs, and authoritative name servers. Operates on udp/53 (and tcp/53 for large transfers).
 
 ### NFV (Network Function Virtualization)
-- Replaces physical network [devices](network_plus/01-concepts/devices.md) (routers, switches, firewalls, etc.) with virtual versions managed from a hypervisor.
+- Replaces physical network [devices](devices.md) (routers, switches, firewalls, etc.) with virtual versions managed from a hypervisor.
 
 ### VPC (Virtual Private Cloud)
 - A pool of resources created in a public cloud. Connected to other VPCs via a transit gateway. Secured using VPNs, NAT gateways, and VPC endpoints.
@@ -91,15 +91,15 @@
 - The provider manages the platform; the customer handles development. No servers or maintenance teams required. Example: Salesforce.com.
 
 ### TCP (Transmission Control Protocol)
-- A connection-oriented, [OSI](network_plus/01-concepts/osi.md) Layer 4 protocol. Provides reliable delivery, error recovery, reordering of data, and flow control. Requires a formal connection setup and teardown.
+- A connection-oriented, [OSI](osi.md) Layer 4 protocol. Provides reliable delivery, error recovery, reordering of data, and flow control. Requires a formal connection setup and teardown.
 
 ### UDP (User Datagram Protocol)
-- A connectionless, [OSI](network_plus/01-concepts/osi.md) Layer 4 protocol. No formal connection, no error recovery, no reordering, and no flow control. The sender determines the amount of data sent.
+- A connectionless, [OSI](osi.md) Layer 4 protocol. No formal connection, no error recovery, no reordering, and no flow control. The sender determines the amount of data sent.
 
-### Non-ephemeral [Ports](network_plus/01-concepts/ports.md)
+### Non-ephemeral [Ports](ports.md)
 - Permanent port numbers from 0 through 1,023. Usually assigned to well-known servers and services.
 
-### Ephemeral [Ports](network_plus/01-concepts/ports.md)
+### Ephemeral [Ports](ports.md)
 - Temporary port numbers from 1,024 through 65,535. Assigned in real-time by the client for a communication session.
 
 ### FTP (File Transfer Protocol)
@@ -115,7 +115,7 @@
 - Provides remote console access on tcp/23. Communication is sent in cleartext — not recommended for production systems.
 
 ### SMTP (Simple Mail Transfer Protocol)
-- Used for server-to-server email transfer. tcp/25 (plaintext) and tcp/587 (TLS encrypted). Also used by [devices](network_plus/01-concepts/devices.md) to send mail to a mail server.
+- Used for server-to-server email transfer. tcp/25 (plaintext) and tcp/587 (TLS encrypted). Also used by [devices](devices.md) to send mail to a mail server.
 
 ### DHCP (Dynamic Host Configuration Protocol)
 - Automatically configures IP address, subnet mask, default gateway, and other options for network clients. Uses udp/67 (server) and udp/68 (client).
@@ -130,10 +130,10 @@
 - HTTP encrypted with SSL/TLS on tcp/443.
 
 ### NTP (Network Time Protocol)
-- Synchronizes clocks across network [devices](network_plus/01-concepts/devices.md) on udp/123. Critical for log files, authentication, and outage correlation. Accurate to less than 1 millisecond on a local network.
+- Synchronizes clocks across network [devices](devices.md) on udp/123. Critical for log files, authentication, and outage correlation. Accurate to less than 1 millisecond on a local network.
 
 ### SNMP (Simple Network Management Protocol)
-- Gathers statistics from and manages network [devices](network_plus/01-concepts/devices.md) on udp/161. SNMPv1: cleartext. SNMPv2c: bulk transfers, still cleartext. SNMPv3: message integrity, authentication, and encryption. SNMP traps use udp/162 for alerts.
+- Gathers statistics from and manages network [devices](devices.md) on udp/161. SNMPv1: cleartext. SNMPv2c: bulk transfers, still cleartext. SNMPv3: message integrity, authentication, and encryption. SNMP traps use udp/162 for alerts.
 
 ### LDAP (Lightweight Directory Access Protocol)
 - Stores and retrieves information in a network directory on tcp/389. Used in Windows Active Directory and other directory services.
@@ -163,7 +163,7 @@
 - Creates a tunnel between two endpoints by encapsulating traffic inside IP. No built-in encryption.
 
 ### IPSec (Internet Protocol Security)
-- Provides authentication and encryption at [OSI](network_plus/01-concepts/osi.md) Layer 3 for every packet. Uses two core protocols: AH (Authentication Header) and ESP (Encapsulating Security Payload).
+- Provides authentication and encryption at [OSI](osi.md) Layer 3 for every packet. Uses two core protocols: AH (Authentication Header) and ESP (Encapsulating Security Payload).
 
 ### AH (Authentication Header)
 - An IPSec protocol that provides data integrity via a hash of the packet and a shared key. Does not encrypt the payload.
@@ -262,7 +262,7 @@
 - A coaxial cable connector that twists and locks in place. Common with twinax, DS3 WAN links, and video connections.
 
 ### Star / Hub and Spoke Topology
-- All [devices](network_plus/01-concepts/devices.md) connect to a central device (e.g., a switch). The most common topology for small and large networks.
+- All [devices](devices.md) connect to a central device (e.g., a switch). The most common topology for small and large networks.
 
 ### Mesh Topology
 - Multiple links to the same location (fully or partially connected). Provides redundancy, fault tolerance, and load balancing. Common in WANs.
@@ -277,13 +277,13 @@
 - Combines the Core and Distribution layers into one. Cost-effective for small to medium networks but has scalability limitations.
 
 ### East-West Traffic
-- Traffic between [devices](network_plus/01-concepts/devices.md) within the same data center. Relatively fast response times.
+- Traffic between [devices](devices.md) within the same data center. Relatively fast response times.
 
 ### North-South Traffic
 - Traffic going into or out of a data center to an external device. Requires a different security posture than east-west traffic.
 
 ### IPv4 Address
-- A 32-bit address used to identify [devices](network_plus/01-concepts/devices.md) on a network. Expressed in dotted-decimal notation (e.g., 192.168.1.1). Configured with a subnet mask and default gateway.
+- A 32-bit address used to identify [devices](devices.md) on a network. Expressed in dotted-decimal notation (e.g., 192.168.1.1). Configured with a subnet mask and default gateway.
 
 ### Subnet Mask
 - Used by a device to determine which subnet it is on. Defines the network and host portions of an IP address.
@@ -295,7 +295,7 @@
 - A self-referencing IPv4 address range from 127.0.0.1 to 127.255.255.254 used to test local TCP/IP configuration.
 
 ### APIPA (Automatic Private IP Addressing)
-- A link-local address automatically assigned when DHCP is unavailable. Range: 169.254.1.0 to 169.254.254.255. Only communicates with other local [devices](network_plus/01-concepts/devices.md); not routed.
+- A link-local address automatically assigned when DHCP is unavailable. Range: 169.254.1.0 to 169.254.254.255. Only communicates with other local [devices](devices.md); not routed.
 
 ### RFC 1918 Private IP Addresses
 - Private IPv4 address ranges not routable on the Internet: 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16.
@@ -316,7 +316,7 @@
 - Translates between IPv4 and IPv6 addresses to allow interoperability. Requires a NAT64-capable router and DNS64 server.
 
 ### SDN (Software Defined Networking)
-- Separates network [functions](network_plus/01-concepts/functions.md) into Data Plane (forwarding), Control Plane (routing/session tables), and Management Plane (configuration via SSH/API). Enables cloud-scale network management.
+- Separates network [functions](functions.md) into Data Plane (forwarding), Control Plane (routing/session tables), and Management Plane (configuration via SSH/API). Enables cloud-scale network management.
 
 ### SD-WAN (Software Defined WAN)
 - A cloud-optimized WAN that is application-aware, transport-agnostic, and zero-touch provisioned. Uses central policy management and routes traffic via the optimal path.
@@ -328,7 +328,7 @@
 - A security model where nothing is inherently trusted. Every device, person, and process must be verified. Relies on MFA, encryption, permissions, monitoring, and analytics.
 
 ### SASE (Secure Access Service Edge)
-- A next-generation VPN that places security technologies in the cloud close to existing cloud services. SASE clients are installed on all [devices](network_plus/01-concepts/devices.md) for streamlined, automatic secure access.
+- A next-generation VPN that places security technologies in the cloud close to existing cloud services. SASE clients are installed on all [devices](devices.md) for streamlined, automatic secure access.
 
 ### IaC (Infrastructure as Code)
 - Describes infrastructure (servers, networks, applications) as definition files. Enables versioned, consistent, repeatable deployments — critical for cloud computing.
@@ -355,13 +355,13 @@
 - Provides a virtual IP address (VIP) for the default gateway. If one router fails, another takes over seamlessly.
 
 ### NAT (Network Address Translation)
-- Translates private IP addresses to a public IP address (and vice versa). Allows many [devices](network_plus/01-concepts/devices.md) to share a single public IP. Types include Static NAT and PAT/NAT Overload.
+- Translates private IP addresses to a public IP address (and vice versa). Allows many [devices](devices.md) to share a single public IP. Types include Static NAT and PAT/NAT Overload.
 
 ### PAT (Port Address Translation) / NAT Overload
 - A form of NAT that maps many private IP addresses to a single public IP using different port numbers to distinguish sessions.
 
 ### VLAN (Virtual Local Area Network)
-- A logical grouping of [devices](network_plus/01-concepts/devices.md) into the same broadcast domain regardless of physical location. Configured on switches using the VLAN database.
+- A logical grouping of [devices](devices.md) into the same broadcast domain regardless of physical location. Configured on switches using the VLAN database.
 
 ### 802.1Q Trunking
 - Adds a VLAN tag (12-bit VLAN ID) to Ethernet frames so multiple VLANs can travel over a single trunk link between switches. Supports up to 4,094 VLANs.
@@ -400,7 +400,7 @@
 - A wireless network name shared across multiple access points to create a single roaming network.
 
 ### IBSS (Independent Basic Service Set)
-- An ad hoc wireless network where two [devices](network_plus/01-concepts/devices.md) communicate directly without an access point.
+- An ad hoc wireless network where two [devices](devices.md) communicate directly without an access point.
 
 ### Captive Portal
 - An authentication page that redirects users before granting network access. Common on public Wi-Fi. Requires credentials before allowing full web access.
@@ -451,7 +451,7 @@
 - Managing hardware and software from deployment to end-of-life (EOL) and end-of-support (EOS). Includes patching, firmware updates, and decommissioning.
 
 ### Change Management
-- A documented process for making changes to a network (software upgrades, firewall configs, switch [ports](network_plus/01-concepts/ports.md)). Includes frequency, duration, rollback procedures, and change control windows.
+- A documented process for making changes to a network (software upgrades, firewall configs, switch [ports](ports.md)). Includes frequency, duration, rollback procedures, and change control windows.
 
 ### SNMP OID (Object Identifier)
 - A unique identifier for each variable in the SNMP Management Information Base (MIB). Referenced by name or number to query specific device statistics.
@@ -469,13 +469,13 @@
 - Copies traffic from one or more interfaces to a monitoring device. Used for packet capture, IDS, and performance monitoring.
 
 ### LLDP (Link Layer Discovery Protocol)
-- A vendor-neutral protocol for discovering neighboring network [devices](network_plus/01-concepts/devices.md) and their capabilities.
+- A vendor-neutral protocol for discovering neighboring network [devices](devices.md) and their capabilities.
 
 ### CDP (Cisco Discovery Protocol)
-- A proprietary Cisco protocol for discovering neighboring Cisco [devices](network_plus/01-concepts/devices.md).
+- A proprietary Cisco protocol for discovering neighboring Cisco [devices](devices.md).
 
 ### API (Application Programming Interface)
-- Allows software to interact with third-party [devices](network_plus/01-concepts/devices.md) and services (cloud, firewalls, operating systems). Used for automating configuration and management.
+- Allows software to interact with third-party [devices](devices.md) and services (cloud, firewalls, operating systems). Used for automating configuration and management.
 
 ### Disaster Recovery Plan (DRP)
 - A detailed plan for resuming operations after a disaster. Includes backups, off-site replication, and remote site options.
@@ -502,10 +502,10 @@
 - An exact replica of the primary site with hardware, software, and data constantly synchronized. Can be activated nearly immediately.
 
 ### Active-Passive (Failover)
-- Two [devices](network_plus/01-concepts/devices.md) are configured, but only one operates at a time. The passive takes over if the active fails.
+- Two [devices](devices.md) are configured, but only one operates at a time. The passive takes over if the active fails.
 
 ### Active-Active
-- Both [devices](network_plus/01-concepts/devices.md) operate simultaneously, sharing the load. More complex to design and manage.
+- Both [devices](devices.md) operate simultaneously, sharing the load. More complex to design and manage.
 
 ### DHCP Process (DORA)
 - **Discover**: Client broadcasts to find DHCP servers. **Offer**: Server offers an IP address. **Request**: Client requests a specific offer. **Acknowledge**: Server confirms the lease.
@@ -679,7 +679,7 @@
 - A standard for protecting credit card data. Requires secure networks, data protection, vulnerability management, access controls, monitoring, and security policies.
 
 ### IoT (Internet of Things)
-- Network-connected [devices](network_plus/01-concepts/devices.md) such as sensors, smart home [devices](network_plus/01-concepts/devices.md), and wearables. Often has weak default security settings.
+- Network-connected [devices](devices.md) such as sensors, smart home [devices](devices.md), and wearables. Often has weak default security settings.
 
 ### IIoT (Industrial Internet of Things)
 - IoT applied to industrial environments (machine-to-machine). Includes facility automation and industrial control systems.
@@ -691,7 +691,7 @@
 - Hardware and software that manages industrial equipment (power grids, traffic lights, factories). Requires a more critical security posture than typical IT.
 
 ### BYOD (Bring Your Own Device)
-- Policy allowing employees to use personal [devices](network_plus/01-concepts/devices.md) for work. Requires segmentation from the internal network.
+- Policy allowing employees to use personal [devices](devices.md) for work. Requires segmentation from the internal network.
 
 ### DoS (Denial of Service)
 - An attack that forces a service to fail by overloading it or exploiting a vulnerability, making it unavailable to users.
@@ -712,7 +712,7 @@
 - A VLAN hopping attack that crafts a packet with two VLAN tags, exploiting the native VLAN to reach a different VLAN. One-way trip only.
 
 ### MAC Flooding
-- An attack that fills a switch's MAC address table with fake entries, causing the switch to flood all traffic to all [ports](network_plus/01-concepts/ports.md) like a hub.
+- An attack that fills a switch's MAC address table with fake entries, causing the switch to flood all traffic to all [ports](ports.md) like a hub.
 
 ### ARP Poisoning
 - An on-path attack on a local subnet that sends fake ARP replies to associate the attacker's MAC address with a legitimate IP address.
@@ -766,7 +766,7 @@
 - A logical grouping of network areas (trusted, untrusted, screened, etc.) used to simplify and enforce security policies.
 
 ### Port Security
-- Prevents unauthorized [devices](network_plus/01-concepts/devices.md) from connecting to a switch interface. Limits the number of allowed MAC addresses per port; violations disable the port.
+- Prevents unauthorized [devices](devices.md) from connecting to a switch interface. Limits the number of allowed MAC addresses per port; violations disable the port.
 
 ### MAC Filtering
 - Limits network access based on hardware (MAC) addresses. Can be bypassed by MAC address spoofing.
@@ -820,7 +820,7 @@
 - When a DHCP server runs out of IP addresses to assign, clients may receive APIPA addresses and have limited connectivity.
 
 ### Duplicate IP Address
-- Two [devices](network_plus/01-concepts/devices.md) sharing the same IP address on a network. Causes intermittent connectivity as they "fight" for the address.
+- Two [devices](devices.md) sharing the same IP address on a network. Causes intermittent connectivity as they "fight" for the address.
 
 ### Jitter
 - The variation in delay between packets in a real-time stream (voice/video). Excessive jitter causes choppy communication.
@@ -838,7 +838,7 @@
 - The slowest component in a series of technologies that limits overall throughput of the system.
 
 ### Nmap (Network Mapper)
-- A tool to discover network [devices](network_plus/01-concepts/devices.md) and open [ports](network_plus/01-concepts/ports.md). Can identify operating systems, services, and versions. Also detects rogue systems.
+- A tool to discover network [devices](devices.md) and open [ports](ports.md). Can identify operating systems, services, and versions. Also detects rogue systems.
 
 ### Wireshark / Protocol Analyzer
 - A packet capture and analysis tool. Gathers frames on the network or wireless air, identifies traffic patterns, and verifies security controls.
@@ -856,7 +856,7 @@
 - Command-line tools for querying DNS servers to look up IP addresses and other DNS records.
 
 ### netstat
-- Displays active network connections, listening [ports](network_plus/01-concepts/ports.md), and network statistics. `netstat -a` shows all connections.
+- Displays active network connections, listening [ports](ports.md), and network statistics. `netstat -a` shows all connections.
 
 ### ipconfig / ifconfig / ip
 - Tools for viewing and managing IP configuration on Windows (ipconfig), Linux legacy (ifconfig), and modern Linux (ip address).
@@ -877,7 +877,7 @@
 - A hardware tool that analyzes wireless frequencies to identify interference sources and channel usage.
 
 ### CDP (Cisco Discovery Protocol)
-- Proprietary Cisco Layer 2 protocol for discovering neighboring Cisco [devices](network_plus/01-concepts/devices.md) and their capabilities.
+- Proprietary Cisco Layer 2 protocol for discovering neighboring Cisco [devices](devices.md) and their capabilities.
 
 ### show mac-address-table
 - A switch command that displays the MAC address table, showing which MAC addresses are associated with which interfaces.
