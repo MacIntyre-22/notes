@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "Test"
             }
+          },
+          {
+            "id": "7a360c771850d4b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Test 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Test 2"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -129,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test.md",
+                "file": "Test 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +163,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Test"
+              "title": "Backlinks for Test 2"
             }
           },
           {
@@ -148,12 +172,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test.md",
+                "file": "Test 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Test"
+              "title": "Outgoing links from Test 2"
             }
           },
           {
@@ -191,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test.md",
+                "file": "Test 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Test"
+              "title": "Outline of Test 2"
             }
           },
           {
@@ -229,10 +253,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3969a8326b04e718",
+  "active": "7a360c771850d4b9",
   "lastOpenFiles": [
-    "school/azure/bookproject.md",
     "Test.md",
+    "Test 2.md",
+    "school/azure/bookproject.md",
     "network_plus/devices.md",
     "network_plus/def.md",
     "unity/2dlighting.md",
@@ -260,7 +285,6 @@
     "school/cloudadmin/labs/pipline_project.md",
     "school/cloudadmin/labs/ansible_project.md",
     "school/gamdev/exam_notes.md",
-    "school/gamdev/components.md",
     "school/cloudadmin/software",
     "school/cloudadmin/labs",
     "school/gamdev",
