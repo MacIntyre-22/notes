@@ -5,7 +5,7 @@
 ## Operating System
 
 **Ubuntu Server 22.04 LTS**
-The base operating system running on the server. Headless (no desktop environment), managed entirely via SSH from other devices. All services run on top of this.
+The base operating system running on the server. Headless (no desktop environment), managed entirely via SSH or webUI from other devices. All services run on top of this.
 
 -----
 
@@ -22,9 +22,9 @@ Used for containers that require more complex configuration such as special flag
 ## Container Management
 
 **Portainer**
-A web-based UI for managing Docker. Handles container creation, configuration, starting and stopping, log viewing, volume management, and network management — all from a browser at `http://192.168.2.43:9000`. Eliminates the need to run Docker commands in the terminal for day-to-day container management.
+A web-based UI for managing Docker. Handles container creation, configuration, starting and stopping, log viewing, volume management, and network management — all from a browser. Eliminates the need to run Docker commands in the terminal for day-to-day container management.
 
-All containers are assigned to a shared Docker network called `npm-network` during creation so they can communicate with each other and with Nginx Proxy Manager by container name.
+All containers are assigned to a shared Docker network  during creation so they can communicate with each other and with Nginx Proxy Manager by container name.
 
 -----
 
@@ -38,29 +38,31 @@ Sits in front of all web-facing containers and handles incoming traffic on ports
 ## DNS & Domain Management
 
 **Cloudflare**
-Manages DNS for the domain. All subdomains are configured as A records pointing to the server’s public IP. Cloudflare also provides Zero Trust Access (Cloudflare Access) which adds an authentication layer in front of any subdomain — requiring email verification before traffic reaches the server at all.
+Manages DNS for the domain. All subdomains are configured as A records pointing to the server’s public IP.
+
+Cloudflares policies are implemented onto any apps that are public. You can create a Policy and apply it to each app you have that connects through Cloudflare. Some Policies that are set are email authentication and geolocation restrictions.
 
 -----
 
 ## Version Control & CI/CD
 
 **Forgejo**
-A self-hosted Git server with a web UI accessible at `https://git.benmacintyre.net`. Hosts all private repositories including code projects and notes. Provides a GitHub-like interface for browsing repos, viewing commit history, and editing files directly in the browser. Public projects are mirrored to GitHub separately.
+A self-hosted Git server with a web UI. Hosts all private repositories including code projects and notes. Provides a GitHub-like interface for browsing repos, viewing commit history, and editing files directly in the browser. Public projects are mirrored to GitHub separately.
 
-**Forgejo Actions Runner**
-Runs as a systemd service directly on the host machine (not in a container) so it has full access to the host filesystem. Executes CI/CD workflows defined in `.forgejo/workflows/deploy.yml` inside each repo. Configured with the `self-hosted` label so workflows run natively on the server rather than inside a container.
-
-The standard deploy workflow for any web project runs a `git pull` into the project’s www folder on push to main, which Apache picks up instantly via its bind mount.
+**Jenkins**
+CI/CD pipeline setup through Jenkins with a web UI. Overkill for this server but makes development proccesses extremely easy. Used for apps developed and served on the server. Forgejo repos send a webhook once code is pushed to main to trigger Jenkins. 
 
 -----
 
 ## File Storage & Access
 
 **SSH / SFTP**
-Built into Ubuntu Server via OpenSSH. Runs on port 22 (standard) and exposes SFTP for file transfer. Used to mount the server’s storage folder as a network drive on client devices. No extra service required — SFTP is available the moment SSH is running.
+Built into Ubuntu Server via OpenSSH. Exposes SFTP for file transfer. Used to mount the server’s storage folder as a network drive on my devices. No extra service required, SFTP is available the moment SSH is running.
 
 **Filebrowser**
-A lightweight web-based file manager running as a Docker container. Provides a browser UI at `https://files.benmacintyre.net` for browsing, uploading, and downloading files from the server’s storage folder. Both SFTP and Filebrowser point at the same folder on disk — `/home/bmacintyre/server_storage`.
+A lightweight web-based file manager running as a Docker container. Provides a browser UI for uploading, and downloading files from the server’s storage folder. Both SFTP and Filebrowser point at the same folder on disk.
+
+Filebrowser is meant for connection from anywhere whereas SFTP is meant for a faster connection when local. Makes for seemless file transfers when mounted into my other computers.
 
 -----
 
@@ -74,22 +76,17 @@ A lightweight system stats service running as a Docker container with privileged
 
 -----
 
-## Web Server
-
-**Apache (httpd)**
-Used to serve web projects. Each project runs as its own Apache container with a bind mount pointing to the project’s folder under `/home/bmacintyre/www/`. When Forgejo Actions deploys new files into that folder, Apache serves them immediately with no restart required. New projects follow a standard setup: Apache container in Portainer, proxy host in NPM, DNS record in Cloudflare.
-
------
-
 ## Network Summary
 
-| Service           | Access                     | Port          |
-| ----------------- | -------------------------- | ------------- |
-| Portainer         | Local only                 | 9000          |
-| Filebrowser       | Public (Cloudflare Access) | 8080 internal |
-| Forgejo           | Public (Cloudflare Access) | 3000 internal |
-| Homarr            | Local only                 | 7575 internal |
-| Dashdot           | Local only                 | 3001 internal |
-| Apache containers | Public via NPM             | 80 internal   |
-| SSH / SFTP        | Local only                 | 22            |
-| Forgejo SSH       | Local only                 | 2222          |
+| Service       | Access                             |
+| ------------- | ---------------------------------- |
+| Filebrowser   | Public (Cloudflare Access)         |
+| Forgejo       | Public (Cloudflare Access, Canada) |
+| Homarr        | Public (Cloudflare Access)         |
+| Radicale      | Public (Cloudflare Access)         |
+| Portainer     | Local only                         |
+| Dashdot       | Local only                         |
+| SSH / SFTP    | Local only                         |
+| Forgejo SSH   | Local only                         |
+| Jenkins       | Local only                         |
+| Jenkins Agent | Local only                         |

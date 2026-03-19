@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "network_plus/functions.md",
+                "file": "network_plus/comptia_exam.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "functions"
+              "title": "comptia_exam"
+            }
+          },
+          {
+            "id": "f95c80a8ab7b7293",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network_plus/def.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "def"
+            }
+          },
+          {
+            "id": "401d760986a3ffd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network_plus/01-concepts/ip.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ip"
+            }
+          },
+          {
+            "id": "7683e91e34437190",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network_plus/01-concepts/ip.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ip"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -88,7 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 227.51103591918945
   },
   "right": {
     "id": "a9ab446f14c0fa60",
@@ -203,8 +276,8 @@
             "state": {
               "type": "cts-view",
               "state": {},
-              "icon": "paintbrush",
-              "title": "Custom Theme Studio"
+              "icon": "lucide-ghost",
+              "title": "cts-view"
             }
           }
         ],
@@ -212,7 +285,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 674.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,21 +296,42 @@
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "bases:Create new base": true,
-      "obsidian-git:Open Git source control": false,
       "markdown-importer:Open format converter": true,
       "publish:Publish changes...": true,
-      "custom-theme-studio:Custom Theme Studio": true
+      "obsidian-git:Open Git source control": false,
+      "custom-theme-studio:Custom Theme Studio": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0a95eb4ba67e0989",
+  "active": "7683e91e34437190",
   "lastOpenFiles": [
+    "network_plus/comptia_textbook.pdf",
+    "network_plus/01-concepts/ip.md",
+    "Excalidraw/ip_diagram.md",
+    "Excalidraw/Drawing 2026-03-19 19.14.50.excalidraw.md",
+    "Excalidraw",
+    "Excalidraw/Drawing 2026-03-19 19.08.45.excalidraw.md",
+    "drawings",
+    "ip_diagram.canvas",
+    "network_plus/01-concepts/cloud_models.md",
+    "network_plus/01-concepts/designing_the_cloud.md",
+    "network_plus/01-concepts/functions.md",
+    "network_plus/01-concepts/devices.md",
+    "network_plus/01-concepts/osi.md",
     "network_plus/def.md",
-    "network_plus/devices.md",
-    "network_plus/functions.md",
-    "network_plus/osi.md",
-    "network_plus/ports.md",
-    "server_docs/server_overview.md",
+    "network_plus/comptia_exam.md",
+    "network_plus/05-troubleshooting",
+    "network_plus/04-security",
+    "network_plus/03-operations",
+    "network_plus/02-implementation",
+    "network_plus/01-concepts",
+    "server_docs/01-ssh-sftp.md",
+    "server_docs/07-docker-networking.md",
+    "server_docs/08-cloudflare-dns.md",
+    "server_docs/09-new-container-deploy.md",
     "server_docs/11-forgejo-runner-deploy.md",
+    "server_docs/server_overview.md",
+    "network_plus/01-concepts/ports.md",
     "unity/2dlighting.md",
     "school/azure/bookproject.md",
     "school/capstone/meetings.md",
@@ -245,26 +339,7 @@
     "school/cloudadmin/software/ansible.md",
     "server_docs/03-docker-portainer.md",
     "server_docs/04-filebrowser.md",
-    "server_docs/05-nginx-proxy-manager.md",
-    "server_docs/06-apache-portfolio.md",
-    "school/cloudadmin/labs/pipline_project.md",
-    "school/cloudadmin/software/ssh_setup.md",
-    "school/cloudadmin/software/jenkins.md",
-    "school/cloudadmin/software/githubworkflow.md",
-    "laravel_saas/project.md",
-    "server_docs/07-docker-networking.md",
-    "server_docs/08-cloudflare-dns.md",
     "Untitled.base",
-    "network_plus/n10-009-notes-pm.pdf",
-    "network_plus/voucher_discount.md",
-    "server_docs/01-ssh-sftp.md",
-    "Test 2.md",
-    "unity",
-    "server_docs",
-    "school/cloudadmin/software/githubworkflow.pdf",
-    "school/cloudadmin/software",
-    "school/cloudadmin/labs",
-    "school/gamdev",
-    "school/swift"
+    "unity"
   ]
 }
