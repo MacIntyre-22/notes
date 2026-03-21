@@ -14,7 +14,7 @@
 	- like version control for hardware
 
 ### Virtual Private Cloud
-[VPC (Virtual Private Cloud)](network_plus/def.md#VPC%20(Virtual%20Private%20Cloud))
+[VPC (Virtual Private Cloud)](def.md#VPC%20(Virtual%20Private%20Cloud))
 - pool of resources created in public cloud
 - connect multiple with transit gateway 
 	- commonly on different subnets
@@ -41,3 +41,32 @@
 		- can be difficult to manage
 		- not all devices in a subnet have the same security posture
 		- broad rules might not be right level of security
+
+---
+
+## Cloud Deployment Models
+- public
+- private
+- hybrid
+
+### SaaS
+[SaaS (Software as a Service)](network_plus/def.md#SaaS%20(Software%20as%20a%20Service))
+- on demand software
+	- no local install 
+- central management of apps
+- no development work required
+	- ex: google mail
+
+### IaaS
+[SaaS (Software as a Service)](network_plus/def.md#SaaS%20(Software%20as%20a%20Service))
+aka Hardware as a Service
+- your responsible for the software management
+- data is still on cloud
+
+### PaaS
+[PaaS (Platform as a Service)](network_plus/def.md#PaaS%20(Platform%20as%20a%20Service))
+- no server or software
+- you dont have control of the data, people, or infastructure
+- put the building blocks together
+	- ex: salesforce
+- 

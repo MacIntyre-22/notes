@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "network_plus/01-concepts/cloud_computing.md",
+                "file": "network_plus/01-concepts/ip.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "cloud_computing"
-            }
-          },
-          {
-            "id": "c199f6460b35d28a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "network_plus/def.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "def"
+              "title": "ip"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -244,10 +219,11 @@
       "custom-theme-studio:Custom Theme Studio": false
     }
   },
-  "active": "c199f6460b35d28a",
+  "active": "f95c80a8ab7b7293",
   "lastOpenFiles": [
-    "network_plus/def.md",
     "network_plus/01-concepts/cloud_computing.md",
+    "network_plus/01-concepts/ip.md",
+    "network_plus/def.md",
     "network_plus/01-concepts/ports.md",
     "network_plus/01-concepts/devices.md",
     "network_plus/01-concepts/functions.md",
