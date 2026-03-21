@@ -30,7 +30,7 @@ debugInConsole: false # Print debug info in Obsidian console
 - application specific integrated circuit (ASIC)
 - layer 2
   - forwards traffic based on data link address
-- many [ports](ports.md) and features
+- many [ports](network_plus/01-concepts/ports.md) and features
   - PoE
   - core of an enterprise network
 - mulitlayer switches
@@ -108,7 +108,7 @@ debugInConsole: false # Print debug info in Obsidian console
 [Access Point (AP)](def.md#Access%20Point%20(AP))
 - is a bridge
   - extends wired netowrk to wireless network
-  - [OSI](osi.md) layer 2
+  - [OSI](network_plus/01-concepts/osi.md) layer 2
 
 ## Wireless LAN Controllers
 [Wireless LAN Controller (WLC)](def.md#Wireless%20LAN%20Controller%20(WLC))

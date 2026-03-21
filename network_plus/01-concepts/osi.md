@@ -36,7 +36,7 @@
 ## Layer 5 - Session Layer
 [Layer 5 – Session Layer](def.md#Layer%205%20–%20Session%20Layer)
 - communication management
-- between [devices](devices.md)
+- between [devices](network_plus/01-concepts/devices.md)
   - start stop restart
 - control protocols, tunneling protocols
 
