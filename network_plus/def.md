@@ -285,6 +285,9 @@
 ### IPv4 Address
 - A 32-bit address used to identify [devices](network_plus/01-concepts/devices.md) on a network. Expressed in dotted-decimal notation (e.g., 192.168.1.1). Configured with a subnet mask and default gateway.
 
+### Subnet
+- A subnet, or subnetwork, is a [network](https://www.cloudflare.com/learning/network-layer/what-is-the-network-layer/) inside a network. Subnets make networks more efficient. Through subnetting, network traffic can travel a shorter distance without passing through unnecessary [routers](https://www.cloudflare.com/learning/network-layer/what-is-routing/) to reach its destination.
+- 
 ### Subnet Mask
 - Used by a device to determine which subnet it is on. Defines the network and host portions of an IP address.
 
