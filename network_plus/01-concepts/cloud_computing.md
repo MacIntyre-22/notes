@@ -28,9 +28,16 @@
 	- allow connection between two cloud providers
 ### Security groups and list
 - like a firewall for your virtual network
+-  layer 4 port numbers [TCP (Transmission Control Protocol)](network_plus/def.md#TCP%20(Transmission%20Control%20Protocol)) or [UDP (User Datagram Protocol)](network_plus/def.md#UDP%20(User%20Datagram%20Protocol))
+- layer 3 address
+	- individual addresses, [CIDR (Classless Inter-Domain Routing)](network_plus/def.md#CIDR%20(Classless%20Inter-Domain%20Routing)) block notation, IPv4 or IPv6
 - groups
-	- layer 4 port numbers [TCP (Transmission Control Protocol)](network_plus/def.md#TCP%20(Transmission%20Control%20Protocol)) or [UDP (User Datagram Protocol)](network_plus/def.md#UDP%20(User%20Datagram%20Protocol))
-	- layer 3 address
-		- individual addresses, [CIDR (Classless Inter-Domain Routing)](network_plus/def.md#CIDR%20(Classless%20Inter-Domain%20Routing)) block notation, IPv4 or IPv6
+	- assign a security rule to a specific virtual [[network_plus/def.md#NIC|def]]
+	- applies to specific devices and connections
+	
 - list
 	- assign rules to entire IP subnets
+	- very broad
+		- can be difficult to manage
+		- not all devices in a subnet have the same security posture
+		- broad rules might not be right level of security

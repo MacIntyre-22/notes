@@ -291,6 +291,12 @@
 ### Subnet Mask
 - Used by a device to determine which subnet it is on. Defines the network and host portions of an IP address.
 
+### NIC
+- A Network Interface Card (NIC) is an essential component of any computer that connects it to the network. It enables data to be sent and received between the computer and other network-connected devices, such as routers or switches
+
+### VNIC
+- A virtual network interface card (vNIC) represents the configuration of a VM connected to a network. A VM can be configured to have multiple vNICs. When a VM is provisioned, each of its associated vNICs can be attached to a virtual network bridge in order to gain connectivity to a specified network
+
 ### Default Gateway
 - The router IP address used to communicate outside the local subnet. Must be an IP address on the local subnet.
 

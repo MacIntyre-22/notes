@@ -13,6 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "network_plus/01-concepts/cloud_computing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "cloud_computing"
+            }
+          },
+          {
+            "id": "c199f6460b35d28a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "network_plus/def.md",
                 "mode": "source",
                 "source": false,
@@ -31,7 +55,8 @@
               "title": "def"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,12 +241,10 @@
       "bases:Create new base": true,
       "markdown-importer:Open format converter": true,
       "publish:Publish changes...": true,
-      "obsidian-git:Open Git source control": false,
-      "custom-theme-studio:Custom Theme Studio": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "custom-theme-studio:Custom Theme Studio": false
     }
   },
-  "active": "f95c80a8ab7b7293",
+  "active": "c199f6460b35d28a",
   "lastOpenFiles": [
     "network_plus/def.md",
     "network_plus/01-concepts/cloud_computing.md",
