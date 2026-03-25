@@ -4,51 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f80afef848997960",
+        "id": "def610280f1a7e85",
         "type": "tabs",
-        "dimension": 38.50524475524475,
         "children": [
           {
-            "id": "f7643dea189b1008",
+            "id": "091e3e3a2190a01c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "network_plus/n10-009-notes-pm.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "n10-009-notes-pm"
-            }
-          }
-        ]
-      },
-      {
-        "id": "37cb7dd7efbfec99",
-        "type": "tabs",
-        "dimension": 61.49475524475524,
-        "children": [
-          {
-            "id": "f95c80a8ab7b7293",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "network_plus/01-concepts/wireless.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "wireless"
+              "title": "New tab"
             }
           }
         ]
@@ -239,13 +205,32 @@
       "custom-theme-studio:Custom Theme Studio": false
     }
   },
-  "active": "f95c80a8ab7b7293",
+  "active": "091e3e3a2190a01c",
   "lastOpenFiles": [
+    "school/gamedev/texturing.md",
+    "school/gamedev/gimp.md",
+    "network_plus/def.md",
+    "school/gamedev",
+    "school/Untitled.md",
+    "school/azure/Untitled",
+    "school/cloudadmin/software/ssh_setup.md",
+    "school/cloudadmin/software/githubworkflow.md",
+    "school/cloudadmin/software/jenkins.md",
+    "school/cloudadmin/software/ansible.md",
+    "school/cloudadmin/software/docker.md",
+    "school/cloudadmin/labs/pipline_project.md",
+    "school/cloudadmin/software",
+    "school/cloudadmin/labs",
+    "school/capstone/meetings.md",
+    "school/azure/bookproject.md",
+    "school/cloudadmin",
+    "school/capstone",
+    "school/azure",
+    "school",
+    "network_plus/01-concepts/wireless.md",
     "network_plus/01-concepts/ip.md",
     "network_plus/01-concepts/ethernet.md",
     "network_plus/n10-009-notes-pm.pdf",
-    "network_plus/def.md",
-    "network_plus/01-concepts/wireless.md",
     "network_plus/01-concepts/devices.md",
     "network_plus/01-concepts/cloud_computing.md",
     "network_plus/01-concepts/ports.md",
@@ -253,29 +238,11 @@
     "network_plus/01-concepts/osi.md",
     "network_plus/01-concepts",
     "server_docs/11-forgejo-runner-deploy.md",
-    "network_plus/comptia_textbook.pdf",
     "Excalidraw/ip_diagram.md",
     "Excalidraw/Drawing 2026-03-19 19.14.50.excalidraw.md",
-    "Excalidraw",
     "Excalidraw/Drawing 2026-03-19 19.08.45.excalidraw.md",
-    "drawings",
     "ip_diagram.canvas",
     "network_plus/01-concepts/cloud_models.md",
-    "network_plus/01-concepts/designing_the_cloud.md",
-    "network_plus/01-concepts/osi.md",
-    "network_plus/comptia_exam.md",
-    "network_plus/05-troubleshooting",
-    "network_plus/04-security",
-    "network_plus/03-operations",
-    "network_plus/02-implementation",
-    "network_plus/01-concepts",
-    "server_docs/01-ssh-sftp.md",
-    "server_docs/07-docker-networking.md",
-    "server_docs/08-cloudflare-dns.md",
-    "server_docs/09-new-container-deploy.md",
-    "server_docs/server_overview.md",
-    "unity/2dlighting.md",
-    "school/azure/bookproject.md",
-    "school/capstone/meetings.md"
+    "network_plus/01-concepts/designing_the_cloud.md"
   ]
 }
