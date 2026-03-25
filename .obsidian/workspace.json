@@ -11,10 +11,24 @@
             "id": "091e3e3a2190a01c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "school/gamedev/texturing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "texturing"
             }
           }
         ]
@@ -207,8 +221,14 @@
   },
   "active": "091e3e3a2190a01c",
   "lastOpenFiles": [
-    "school/gamedev/texturing.md",
     "school/gamedev/gimp.md",
+    "school/gamedev/unity/ui.md",
+    "school/cloudadmin/software/hypervisors.md",
+    "school/capstone/meetings.md",
+    "school/adv_programming/trees.md",
+    "school/adv_programming/dictionaries.md",
+    "school/gamedev/unity",
+    "school/gamedev/texturing.md",
     "network_plus/def.md",
     "school/gamedev",
     "school/Untitled.md",
@@ -221,7 +241,6 @@
     "school/cloudadmin/labs/pipline_project.md",
     "school/cloudadmin/software",
     "school/cloudadmin/labs",
-    "school/capstone/meetings.md",
     "school/azure/bookproject.md",
     "school/cloudadmin",
     "school/capstone",
@@ -236,13 +255,8 @@
     "network_plus/01-concepts/ports.md",
     "network_plus/01-concepts/functions.md",
     "network_plus/01-concepts/osi.md",
-    "network_plus/01-concepts",
     "server_docs/11-forgejo-runner-deploy.md",
     "Excalidraw/ip_diagram.md",
-    "Excalidraw/Drawing 2026-03-19 19.14.50.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-19 19.08.45.excalidraw.md",
-    "ip_diagram.canvas",
-    "network_plus/01-concepts/cloud_models.md",
-    "network_plus/01-concepts/designing_the_cloud.md"
+    "ip_diagram.canvas"
   ]
 }
