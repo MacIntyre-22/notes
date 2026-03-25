@@ -4,36 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f80afef848997960",
+        "id": "1a7333979d83b5f6",
         "type": "tabs",
-        "dimension": 38.50524475524475,
         "children": [
           {
-            "id": "f7643dea189b1008",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "network_plus/n10-009-notes-pm.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "n10-009-notes-pm"
-            }
-          }
-        ]
-      },
-      {
-        "id": "37cb7dd7efbfec99",
-        "type": "tabs",
-        "dimension": 61.49475524475524,
-        "children": [
-          {
-            "id": "f95c80a8ab7b7293",
+            "id": "fafc217d836c4ea1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "network_plus/01-concepts/wireless.md",
+                "file": "school/cloudadmin/software/hypervisors.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -48,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "wireless"
+              "title": "hypervisors"
             }
           }
         ]
@@ -239,13 +219,16 @@
       "custom-theme-studio:Custom Theme Studio": false
     }
   },
-  "active": "f95c80a8ab7b7293",
+  "active": "fafc217d836c4ea1",
   "lastOpenFiles": [
+    "school/adv_programming/dictionaries.md",
+    "school/cloudadmin/software/hypervisors.md",
+    "school/adv_programming",
+    "network_plus/01-concepts/wireless.md",
     "network_plus/01-concepts/ip.md",
     "network_plus/01-concepts/ethernet.md",
     "network_plus/n10-009-notes-pm.pdf",
     "network_plus/def.md",
-    "network_plus/01-concepts/wireless.md",
     "network_plus/01-concepts/devices.md",
     "network_plus/01-concepts/cloud_computing.md",
     "network_plus/01-concepts/ports.md",
@@ -268,14 +251,12 @@
     "network_plus/04-security",
     "network_plus/03-operations",
     "network_plus/02-implementation",
-    "network_plus/01-concepts",
     "server_docs/01-ssh-sftp.md",
     "server_docs/07-docker-networking.md",
     "server_docs/08-cloudflare-dns.md",
     "server_docs/09-new-container-deploy.md",
     "server_docs/server_overview.md",
     "unity/2dlighting.md",
-    "school/azure/bookproject.md",
-    "school/capstone/meetings.md"
+    "school/azure/bookproject.md"
   ]
 }
