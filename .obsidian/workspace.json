@@ -13,7 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "school/advprog/trees.md",
+=======
+                "file": "school/gamedev/texturing.md",
+>>>>>>> c58e03c4eb3722c134ac95c5d1469c9eaa92c4b8
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +32,11 @@
                 }
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "trees"
+=======
+              "title": "texturing"
+>>>>>>> c58e03c4eb3722c134ac95c5d1469c9eaa92c4b8
             }
           }
         ]
@@ -221,6 +229,7 @@
   },
   "active": "091e3e3a2190a01c",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "school/advprog/dictionaries.md",
     "school/advprog/hashing.md",
     "school/gamedev/texturing.md",
@@ -233,7 +242,16 @@
     "network_docs/devices/tper707-m2.md",
     "network_docs/devices/desktop.md",
     "network_docs/devices",
+=======
+>>>>>>> c58e03c4eb3722c134ac95c5d1469c9eaa92c4b8
     "school/gamedev/gimp.md",
+    "school/gamedev/unity/ui.md",
+    "school/cloudadmin/software/hypervisors.md",
+    "school/capstone/meetings.md",
+    "school/adv_programming/trees.md",
+    "school/adv_programming/dictionaries.md",
+    "school/gamedev/unity",
+    "school/gamedev/texturing.md",
     "network_plus/def.md",
     "school/gamedev",
     "school/Untitled.md",
@@ -246,7 +264,6 @@
     "school/cloudadmin/labs/pipline_project.md",
     "school/cloudadmin/software",
     "school/cloudadmin/labs",
-    "school/capstone/meetings.md",
     "school/azure/bookproject.md",
     "school/cloudadmin",
     "school/capstone",
@@ -257,6 +274,14 @@
     "network_plus/01-concepts/ethernet.md",
     "network_plus/01-concepts/devices.md",
     "network_plus/01-concepts/cloud_computing.md",
+<<<<<<< HEAD
+=======
+    "network_plus/01-concepts/ports.md",
+    "network_plus/01-concepts/functions.md",
+    "network_plus/01-concepts/osi.md",
+    "server_docs/11-forgejo-runner-deploy.md",
+    "Excalidraw/ip_diagram.md",
+>>>>>>> c58e03c4eb3722c134ac95c5d1469c9eaa92c4b8
     "ip_diagram.canvas"
   ]
 }
