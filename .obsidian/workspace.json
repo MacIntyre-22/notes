@@ -11,10 +11,24 @@
             "id": "091e3e3a2190a01c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "school/advprog/trees.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "trees"
             }
           }
         ]
@@ -167,7 +181,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "network_plus/def.md"
+                "file": "school/advprog/hashing.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -207,7 +221,18 @@
   },
   "active": "091e3e3a2190a01c",
   "lastOpenFiles": [
+    "school/advprog/dictionaries.md",
+    "school/advprog/hashing.md",
     "school/gamedev/texturing.md",
+    "githubworkflow.pdf.md",
+    "school/advprog/trees.md",
+    "network_docs/devices/server.md",
+    "school/advprog",
+    "network_docs/devices/gigahub.md",
+    "network_docs/devices/tptl-sg108.md",
+    "network_docs/devices/tper707-m2.md",
+    "network_docs/devices/desktop.md",
+    "network_docs/devices",
     "school/gamedev/gimp.md",
     "network_plus/def.md",
     "school/gamedev",
@@ -230,19 +255,8 @@
     "network_plus/01-concepts/wireless.md",
     "network_plus/01-concepts/ip.md",
     "network_plus/01-concepts/ethernet.md",
-    "network_plus/n10-009-notes-pm.pdf",
     "network_plus/01-concepts/devices.md",
     "network_plus/01-concepts/cloud_computing.md",
-    "network_plus/01-concepts/ports.md",
-    "network_plus/01-concepts/functions.md",
-    "network_plus/01-concepts/osi.md",
-    "network_plus/01-concepts",
-    "server_docs/11-forgejo-runner-deploy.md",
-    "Excalidraw/ip_diagram.md",
-    "Excalidraw/Drawing 2026-03-19 19.14.50.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-19 19.08.45.excalidraw.md",
-    "ip_diagram.canvas",
-    "network_plus/01-concepts/cloud_models.md",
-    "network_plus/01-concepts/designing_the_cloud.md"
+    "ip_diagram.canvas"
   ]
 }

@@ -1,6 +1,54 @@
 # Server Tech Stack
+Setup & Config
+
 ```table-of-contents
 ```
+---
+
+## Hardware
+
+                         system         Computer
+/0                       bus            Motherboard
+/0/0                     memory         8GiB System memory
+/0/1                     processor      Intel(R) Pentium(R) CPU G2020 @ 2.90GHz
+/0/100                   bridge         Xeon E3-1200 v2/3rd Gen Core processor DRAM Controller
+/0/100/1                 bridge         Xeon E3-1200 v2/3rd Gen Core processor PCI Express Root Port
+/0/100/2       /dev/fb0  display        Xeon E3-1200 v2/3rd Gen Core processor Graphics Controller
+/0/100/14                bus            7 Series/C210 Series Chipset Family USB xHCI Host Controller
+/0/100/16                communication  7 Series/C216 Chipset Family MEI Controller #1
+/0/100/1a                bus            7 Series/C216 Chipset Family USB Enhanced Host Controller #2
+/0/100/1b      card0     multimedia     7 Series/C216 Chipset Family High Definition Audio Controller
+/0/100/1b/0    input10   input          HDA Intel PCH HDMI/DP,pcm=3
+/0/100/1b/1    input5    input          HDA Intel PCH Front Mic
+/0/100/1b/2    input6    input          HDA Intel PCH Rear Mic
+/0/100/1b/3    input7    input          HDA Intel PCH Line
+/0/100/1b/4    input8    input          HDA Intel PCH Line Out
+/0/100/1b/5    input9    input          HDA Intel PCH Front Headphone
+/0/100/1c                bridge         7 Series/C216 Chipset Family PCI Express Root Port 1
+/0/100/1c.2              bridge         7 Series/C210 Series Chipset Family PCI Express Root Port 3
+/0/100/1c.2/0  wlp3s0    network        AR9485 Wireless Network Adapter
+/0/100/1c.5              bridge         7 Series/C210 Series Chipset Family PCI Express Root Port 6
+/0/100/1c.5/0  enp4s0    network        RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller
+/0/100/1d                bus            7 Series/C216 Chipset Family USB Enhanced Host Controller #1
+/0/100/1e                bridge         82801 PCI Bridge
+/0/100/1f                bridge         B75 Express Chipset LPC Controller
+/0/100/1f/0              system         PnP device PNP0c01
+/0/100/1f/1              system         PnP device PNP0c02
+/0/100/1f/2              system         PnP device PNP0b00
+/0/100/1f/3              system         PnP device PNP0c02
+/0/100/1f/4              system         PnP device PNP0c02
+/0/100/1f/5              system         PnP device PNP0c02
+/0/100/1f/6              system         PnP device PNP0c01
+/0/100/1f.2              storage        7 Series/C210 Series Chipset Family 6-port SATA Controller [AHCI mode]
+/0/100/1f.3              bus            7 Series/C216 Chipset Family SMBus Controller
+/1             scsi6     storage
+/2             input0    input          Power Button
+/3             input1    input          Power Button
+/4             input2    input          BY Tech Air75
+/5             input3    input          BY Tech Air75
+/6             input4    input          Video Bus
+
+---
 
 ## Operating System
 
@@ -22,7 +70,7 @@ Used for containers that require more complex configuration such as special flag
 ## Container Management
 
 **Portainer**
-A web-based UI for managing Docker. Handles container creation, configuration, starting and stopping, log viewing, volume management, and network management — all from a browser at `http://192.168.2.43:9000`. Eliminates the need to run Docker commands in the terminal for day-to-day container management.
+A web-based UI for managing Docker. Handles container creation, configuration, starting and stopping, log viewing, volume management, and network management all from a browser. Eliminates the need to run Docker commands in the terminal for day-to-day container management.
 
 All containers are assigned to a shared Docker network called `npm-network` during creation so they can communicate with each other and with Nginx Proxy Manager by container name.
 
@@ -47,10 +95,6 @@ Manages DNS for the domain. All subdomains are configured as A records pointing 
 **Forgejo**
 A self-hosted Git server with a web UI accessible at `https://git.benmacintyre.net`. Hosts all private repositories including code projects and notes. Provides a GitHub-like interface for browsing repos, viewing commit history, and editing files directly in the browser. Public projects are mirrored to GitHub separately.
 
-**Forgejo Actions Runner**
-Runs as a systemd service directly on the host machine (not in a container) so it has full access to the host filesystem. Executes CI/CD workflows defined in `.forgejo/workflows/deploy.yml` inside each repo. Configured with the `self-hosted` label so workflows run natively on the server rather than inside a container.
-
-The standard deploy workflow for any web project runs a `git pull` into the project’s www folder on push to main, which Apache picks up instantly via its bind mount.
 
 -----
 
