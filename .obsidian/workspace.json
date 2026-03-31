@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school/advprog/hashing.md",
+                "file": "projects/django_log_viewer/log_viewer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "hashing"
+              "title": "log_viewer"
             }
           }
         ]
@@ -198,8 +198,11 @@
   },
   "active": "9f9d58466b0ebf12",
   "lastOpenFiles": [
-    "school/advprog/trees.md",
     "school/advprog/hashing.md",
+    "projects/django_log_viewer/log_viewer.md",
+    "projects/django_log_viewer",
+    "projects",
+    "school/advprog/trees.md",
     "school/advprog/dictionaries.md",
     "personal/finance.md",
     "personal/projectAdrianHeader.jpeg",
