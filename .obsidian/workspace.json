@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal/finance.md",
+                "file": "school/advprog/hashing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "finance"
+              "title": "hashing"
             }
           }
         ]
@@ -198,10 +198,13 @@
   },
   "active": "9f9d58466b0ebf12",
   "lastOpenFiles": [
+    "school/advprog/trees.md",
+    "school/advprog/hashing.md",
+    "school/advprog/dictionaries.md",
+    "personal/finance.md",
     "personal/projectAdrianHeader.jpeg",
     "personal/Unconfirmed 760063.crdownload",
     "network_docs/devices/server.md",
-    "personal/finance.md",
     "personal",
     "network_docs/server_config/01-ssh-sftp.md",
     "network_docs/devices/tper707-m2.md",

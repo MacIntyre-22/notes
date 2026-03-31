@@ -15,9 +15,11 @@
 
 ## Calculating Binary Tree Size
 
-- formula for tree size
-	- $s = 2^h-1$
+- formula for tree size from height
+	- $n = 2^h-1$
 - max leave count
+- formula for tree height from size
+	- $h=log2(n + 1)$
 
 ## Traversals of a Binary Tree  
 #### Preorder traversal  
